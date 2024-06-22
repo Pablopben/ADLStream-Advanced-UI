@@ -1,0 +1,66 @@
+.md-header {
+    background-color: #009485;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    display: flex;
+    align-items: center;
+    padding: .5rem 1rem;
+}
+
+@media (min-width: 768px)
+
+.md-header {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+.adl-logo {
+    height: 2rem;
+    margin-right: 2rem
+}
+
+.adl-name {
+    color: #fff;
+    font-size: 1.5rem;
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.adl-index {
+    color: #000000;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    line-height: inherit;
+    white-space: nowrap;
+    text-align: center !important;
+    display: inline;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.adl-section {
+    text-align: center !important;
+    padding-top: 2rem;
+}
+
+.adl-button {
+    color: #fff;
+    background-color: #009485;
+}
+
+.adl-secondary-button {
+    background-color: #344B47;
+    color: #fff;
+}
+
+.adl-select {
+    margin-bottom: 1rem;
+    margin-top: 0.5em;
+}

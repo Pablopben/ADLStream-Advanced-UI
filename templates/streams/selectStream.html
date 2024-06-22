@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+<link rel="stylesheet" href="../static/styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<header>
+    <nav class="md-header">
+        <div class="col-md-4 adl-name"><a href="/">
+            <img src="../static/logo.png" class="adl-logo"></a>
+            ADLstream
+        </div>
+        <div class="col-md-4 adl-index"><b style="color: white">Stream</b> - Generator - Evaluator - Model - End</div>
+        <div class="col-md-4"></div>
+    </nav>
+</header>
+
+<body onload="addForm()"></body>
+
+<script>
+    function addForm() {
+        var e = document.getElementById("stream-select").value;
+        var file = "";
+        var div = document.getElementById('form');
+        while (div.firstChild) {
+            div.removeChild(div.firstChild);
+        }
+        if (e === "fakeStream") {
+            file = "static/templates/streams/fakeStreamForm.html"
+            $("#form").load(file)
+        } else {
+            file = "static/templates/streams/csvStreamForm.html"
+            $("#form").load(file)
+        }
+    }
+</script>
+
+<section class="adl-section">
+    <div class="container">
+        <h2> Choose Stream </h2>
+        <select onchange="addForm()" name="stream" id="stream-select" class="form-control adl-select">
+            <option value="fakeStream">Fake Stream</option>
+            <option value="CSVFileStream">CSV File Stream</option>
+        </select>
+        <div id="form"></div>
+    </div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>

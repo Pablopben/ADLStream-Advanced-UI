@@ -1,0 +1,102 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="../static/styles.css">
+
+<section class="adl-section">
+    <div class="container">
+        <h2> MLP Parameters </h2>
+        <form method="post">
+            <input type = "hidden" name = "model" value = "mlp"/>
+            <div class="form-group">
+                <label for="hiddenLayers">Hidden Layers</label>
+                <label>
+                    <input type="text" value="32,16,8" style="width: unset" id="hiddenLayers" name="hiddenLayers"
+                           class="form-control">
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="dropout">Dropout</label>
+                <label>
+                    <input value="0" type="number" step="0.01" max="1" min="0" name="dropout"
+                           class="form-control">
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="activation-select">Choose hidden layers activation function</label>
+                <label>
+                    <select name="activation" id="activation-select" class="form-control" style="width: unset">
+                        <option value="linear">Linear</option>
+                        <option value="relu">Relu</option>
+                        <option value="deserialize">Deserialize</option>
+                        <option value="elu">Elu</option>
+                        <option value="exponential">Exponential</option>
+                        <option value="gelu">Gelu</option>
+                        <option value="get">Get</option>
+                        <option value="hard_sigmoid">Hard sigmoid</option>
+                        <option value="hard_silu">Hard silu</option>
+                        <option value="hard_swish">Hard swish</option>
+                        <option value="leaky_relu">Leaky relu</option>
+                        <option value="log_softmax">Log softmax</option>
+                        <option value="mish">Mish</option>
+                        <option value="relu6">Relu 6</option>
+                        <option value="selu">Selu</option>
+                        <option value="serialize">Serialize</option>
+                        <option value="sigmoid">Sigmoid</option>
+                        <option value="silu">Silu</option>
+                        <option value="softmax">Softmax</option>
+                        <option value="softplus">Softplus</option>
+                        <option value="softsign">Softsign</option>
+                        <option value="swish">Swish</option>
+                        <option value="tanh">Tanh</option>
+                    </select>
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="out-select">Choose output layer activation function</label>
+                <label>
+                    <select name="outActivation" id="out-select" class="form-control" style="width: unset">
+                        <option value="linear">Linear</option>
+                        <option value="deserialize">Deserialize</option>
+                        <option value="elu">Elu</option>
+                        <option value="exponential">Exponential</option>
+                        <option value="gelu">Gelu</option>
+                        <option value="get">Get</option>
+                        <option value="hard_sigmoid">Hard sigmoid</option>
+                        <option value="hard_silu">Hard silu</option>
+                        <option value="hard_swish">Hard swish</option>
+                        <option value="leaky_relu">Leaky relu</option>
+                        <option value="log_softmax">Log softmax</option>
+                        <option value="mish">Mish</option>
+                        <option value="relu">Relu</option>
+                        <option value="relu6">Relu 6</option>
+                        <option value="selu">Selu</option>
+                        <option value="serialize">Serialize</option>
+                        <option value="sigmoid">Sigmoid</option>
+                        <option value="silu">Silu</option>
+                        <option value="softmax">Softmax</option>
+                        <option value="softplus">Softplus</option>
+                        <option value="softsign">Softsign</option>
+                        <option value="swish">Swish</option>
+                        <option value="tanh">Tanh</option>
+                    </select>
+                </label>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn adl-button">Finish</button>
+            </div>
+        </form>
+        <button onclick="history.back()" class="btn adl-secondary-button">Evaluator</button>
+    </div>
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>

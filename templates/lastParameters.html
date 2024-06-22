@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+<link rel="stylesheet" href="../static/styles.css">
+<header>
+    <!-- Fixed navbar -->
+    <nav class="md-header">
+        <div class="col-md-4 adl-name"><a href="/">
+            <img src="../static/logo.png" class="adl-logo"></a>
+            ADLstream
+        </div>
+        <div class="col-md-4 adl-index"> Stream - Generator - Evaluator - Model - <b style="color: white">End</b></div>
+        <div class="col-md-4"></div>
+    </nav>
+</header>
+<script type="text/javascript">
+    function loading() {
+        $("#loading").show();
+        $("#form").hide();
+    }
+
+</script>
+
+
+<section class="adl-section">
+    <img id="loading" style="display: none" src="../static/loading.gif">
+    <div class="container" id="form">
+        <h2>Last Parameters</h2>
+        <form method="post">
+            <div class="form-group">
+                <label for="loss-select">Choose loss model:</label>
+                <label>
+                    <select name="loss" id="loss-select" class="form-control">
+                        <option value="mae">MAE</option>
+                        <option value="binary_crossentropy">Binary Cross-Entropy</option>
+                        <option value="binary_focal_crossentropy">Binary Focal Cross-Entropy</option>
+                        <option value="categorical_crossentropy">Categorical Cross-Entropy</option>
+                        <option value="categorical_focal_crossentropy">Categorical Focal Cross-Entropy</option>
+                        <option value="sparse_categorical_crossentropy">Sparse Categorical Cross-Entropy</option>
+                        <option value="hinge">Hinge</option>
+                        <option value="categorical_hinge">Categorical Hinge</option>
+                        <option value="squared_hinge">Squared Hinge</option>
+                        <option value="cosine_similarity">Cosine Similarity</option>
+                        <option value="logcosh">Log Cosh</option>
+                        <option value="kld">KLD</option>
+                        <option value="mse">MSE</option>
+                        <option value="msle">MSLE</option>
+                        <option value="mape">MAPE</option>
+                        <option value="poisson">Poisson</option>
+                    </select>
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="opt-select">Choose optimization model:</label>
+                <label>
+                    <select name="opt" id="opt-select" class="form-control">
+                        <option value="adam">Adam</option>
+                        <option value="adadelta">Adadelta</option>
+                        <option value="adafactor">Adafactor</option>
+                        <option value="adagrad">Adagrad</option>
+                        <option value="adamw">Adamw</option>
+                        <option value="adamax">Adamax</option>
+                        <option value="ftrl">Ftrl</option>
+                        <option value="lion">Lion</option>
+                        <option value="Nadam">Nadam</option>
+                        <option value="rmsprop">RMSprop</option>
+                        <option value="sgd">SGD</option>
+                    </select>
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="batchSize">Batch Size</label>
+                <label>
+                    <input type="number" name="batchSize"
+                           value="60" class="form-control">
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="numBatchesFed">Batches to be used</label>
+                <label>
+                    <input type="number" name="numBatchesFed"
+                           value="20" class="form-control">
+                </label>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn adl-button" onclick="loading()">Execute</button>
+            </div>
+        </form>
+        <button onclick="history.back()" class="btn adl-secondary-button">Model</button>
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</html>

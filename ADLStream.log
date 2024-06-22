@@ -1,0 +1,5 @@
+2024-06-21 19:13:39,403 WARNING  TRAINING-PROCESS - There are no enough GPU devices, using CPU
+2024-06-21 19:13:39,410 WARNING  PREDICTING-PROCESS - There are no enough GPU devices, using CPU
+2024-06-21 19:13:40,496 INFO     GENERATOR-PROCESS - Stream has finished
+2024-06-21 19:13:40,497 INFO     PREDICTING-PROCESS - Time out, no instances were received. Finishing process.
+2024-06-21 19:13:40,509 INFO     TRAINING-PROCESS - Finished stream

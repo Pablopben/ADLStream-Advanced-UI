@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet"/>
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+<link rel="stylesheet" href="../static/styles.css">
+<header>
+    <!-- Fixed navbar -->
+    <nav class="md-header">
+        <a href="/"><img src="../static/logo.png" class="adl-logo"></a>
+        <div class="adl-name"> ADLstream</div>
+    </nav>
+</header>
+<section class="adl-section">
+    <div class="container">
+        <div id="data"></div>
+        <button type="submit" class="btn adl-button" onclick="location.href='/'"> Home</button>
+        <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
+        <script>
+            new gridjs.Grid({
+                columns: [
+                    {id: 'name', name: 'File Name', sort: true},
+                    {id: 'stream', name: 'Stream', sort: true},
+                    {id: 'evaluator', name: 'Evaluator', sort: true},
+                    {id: 'model', name: 'Model', sort: true},
+                    {id: 'parameters', name: 'Parameters'},
+                    {id: 'button', name: 'Result'}
+                ],
+                data: [
+                    {% for file in files %}
+                        {
+                            name: '{{ file.fileName }}',
+                            stream: '{{ file.stream }}',
+                            evaluator: '{{ file.evaluator }}',
+                            model: '{{ file.model }}',
+                            parameters: gridjs.html(`<form method="post"><input type = "hidden" name = "fileName" value = '{{ file.fileName }}' />
+                            <input type = "hidden" name = "download" value = '{{ "Parameters" }}' />
+                                            <button type="submit" class="btn btn-secondary" style="background-color: #344B47;">Download</button></form>`),
+                            button: gridjs.html(`<form method="post"><input type = "hidden" name = "fileName" value = '{{ file.fileName }}' />
+                                                        <input type = "hidden" name = "download" value = '{{ "Results" }}' />
+                                            <button type="submit" class="btn btn-secondary">Download</button></form>`)
+                        },
+                    {% endfor %}
+                ],
+                search: true,
+                pagination: {limit: 10},
+            }).render(document.getElementById('data'));
+        </script>
+    </div>
+</section>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+

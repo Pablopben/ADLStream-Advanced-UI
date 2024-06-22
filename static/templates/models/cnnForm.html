@@ -1,0 +1,185 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+<link rel="stylesheet" href="../static/styles.css">
+
+<script>
+    function checkLength(kernelList, convList){
+        if (kernelList.length !== convList.length) {
+            alert("The length must be the same");
+            return true;
+        } else {
+            return false;
+        }
+    }
+    function validateForm() {
+        let kernelSizes = document.forms["form"]["kernelSizes"].value;
+        let convLayers = document.forms["form"]["convLayers"].value;
+        let kernelList = kernelSizes.split(",")
+        let convList = convLayers.split(",")
+        checkLength(kernelList, convList)
+        for (i = 0; i < kernelList.length; i++) {
+            let numero = kernelList[i]
+            if (isNaN(parseInt(numero))) {
+                alert("The list must be made up of numbers");
+                document.getElementById("button").disabled = true;
+                break;
+            }
+        }
+
+    }
+</script>
+
+
+<section class="adl-section">
+    <div class="container">
+        <h2> CNN Parameters </h2>
+        <form name="form" method="post">
+            <div class="form-group">
+                <input type="hidden" name="model" value="cnn"/>
+                <label for="convLayers">Convolutional Layers</label>
+                <label>
+                    <input type="text" value="64,128" style="width: unset" id="convLayers" name="convLayers"
+                           class="form-control">
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="kernelSizes">Kernel sizes</label>
+                <label>
+                    <input onchange="validateForm()" type="text" value="7,5" style="width: unset" id="kernelSizes"
+                           name="kernelSizes"
+                           class="form-control">
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="poolSizes">Pool Sizes</label>
+                <label>
+                    <input type="text" value="2,2" style="width: unset" id="poolSizes" name="poolSizes"
+                           class="form-control">
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="denseLayers">Dense Layers </label>
+                <label>
+                    <input type="text" value="" placeholder="16,8" style="width: unset" id="denseLayers"
+                           name="denseLayers"
+                           class="form-control">
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="denseDropout">Dense Dropout</label>
+                <label>
+                    <input value="0" type="number" step="0.01" max="1" min="0" name="denseDropout"
+                           class="form-control">
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="activation-select">Choose convolutional layers activation function</label>
+                <label>
+                    <select name="activation" id="activation-select" class="form-control" style="width: unset">
+                        <option value="relu">Relu</option>
+                        <option value="linear">Linear</option>
+                        <option value="deserialize">Deserialize</option>
+                        <option value="elu">Elu</option>
+                        <option value="exponential">Exponential</option>
+                        <option value="gelu">Gelu</option>
+                        <option value="get">Get</option>
+                        <option value="hard_sigmoid">Hard sigmoid</option>
+                        <option value="hard_silu">Hard silu</option>
+                        <option value="hard_swish">Hard swish</option>
+                        <option value="leaky_relu">Leaky relu</option>
+                        <option value="log_softmax">Log softmax</option>
+                        <option value="mish">Mish</option>
+                        <option value="relu6">Relu 6</option>
+                        <option value="selu">Selu</option>
+                        <option value="serialize">Serialize</option>
+                        <option value="sigmoid">Sigmoid</option>
+                        <option value="silu">Silu</option>
+                        <option value="softmax">Softmax</option>
+                        <option value="softplus">Softplus</option>
+                        <option value="softsign">Softsign</option>
+                        <option value="swish">Swish</option>
+                        <option value="tanh">Tanh</option>
+                    </select>
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="dense-select">Choose dense layers activation function</label>
+                <label>
+                    <select name="denseActivation" id="denseActivation-select" class="form-control"
+                            style="width: unset">
+                        <option value="linear">Linear</option>
+                        <option value="deserialize">Deserialize</option>
+                        <option value="elu">Elu</option>
+                        <option value="exponential">Exponential</option>
+                        <option value="gelu">Gelu</option>
+                        <option value="get">Get</option>
+                        <option value="hard_sigmoid">Hard sigmoid</option>
+                        <option value="hard_silu">Hard silu</option>
+                        <option value="hard_swish">Hard swish</option>
+                        <option value="leaky_relu">Leaky relu</option>
+                        <option value="log_softmax">Log softmax</option>
+                        <option value="mish">Mish</option>
+                        <option value="relu">Relu</option>
+                        <option value="relu6">Relu 6</option>
+                        <option value="selu">Selu</option>
+                        <option value="serialize">Serialize</option>
+                        <option value="sigmoid">Sigmoid</option>
+                        <option value="silu">Silu</option>
+                        <option value="softmax">Softmax</option>
+                        <option value="softplus">Softplus</option>
+                        <option value="softsign">Softsign</option>
+                        <option value="swish">Swish</option>
+                        <option value="tanh">Tanh</option>
+                    </select>
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="out-select">Choose output layer activation function</label>&nbsp;
+                <label>
+                    <select name="outActivation" id="out-select" class="form-control" style="width: unset">
+                        <option value="linear">Linear</option>
+                        <option value="deserialize">Deserialize</option>
+                        <option value="elu">Elu</option>
+                        <option value="exponential">Exponential</option>
+                        <option value="gelu">Gelu</option>
+                        <option value="get">Get</option>
+                        <option value="hard_sigmoid">Hard sigmoid</option>
+                        <option value="hard_silu">Hard silu</option>
+                        <option value="hard_swish">Hard swish</option>
+                        <option value="leaky_relu">Leaky relu</option>
+                        <option value="log_softmax">Log softmax</option>
+                        <option value="mish">Mish</option>
+                        <option value="relu">Relu</option>
+                        <option value="relu6">Relu 6</option>
+                        <option value="selu">Selu</option>
+                        <option value="serialize">Serialize</option>
+                        <option value="sigmoid">Sigmoid</option>
+                        <option value="silu">Silu</option>
+                        <option value="softmax">Softmax</option>
+                        <option value="softplus">Softplus</option>
+                        <option value="softsign">Softsign</option>
+                        <option value="swish">Swish</option>
+                        <option value="tanh">Tanh</option>
+                    </select>
+                </label>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="button" class="btn adl-button">Finish</button>
+            </div>
+        </form>
+    </div>
+    <button onclick="history.back()" class="btn adl-secondary-button">Evaluator</button>
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>

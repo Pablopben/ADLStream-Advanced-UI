@@ -1,0 +1,62 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+<link rel="stylesheet" href="../static/styles.css">
+
+<section class="adl-section">
+    <div class="container">
+        <h2>Prequential Evaluator Parameters</h2>
+        <form method="post">
+            <input type="hidden" name="evaluator" value="prequentialEvaluator"/>
+            <div class="form-group">
+                <label for="chunkSize">Chunk Size</label>
+                <label>
+                    <input required type="number" name="chunkSize"
+                           placeholder="Chunk Size" class="form-control"
+                           value="10">
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="faddingFactor">Fadding Factor</label>
+                <label>
+                    <input required type="number" step="0.01" name="faddingFactor"
+                           class="form-control"
+                           value="0.98">
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="metric">Metric</label>
+                <label>
+                    <select required name="metric" id="metric-select" class="form-control">
+                        <option value="MAE">MAE</option>
+                        <option value="accuracy">Mean Accuracy</option>
+                        <option value="loss">Loss</option>
+                        <option value="kappa">Kappa</option>
+                    </select>
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="datasetName">Dataset name</label>
+                <label>
+                    <input required type="text" name="datasetName"
+                           class="form-control">
+                </label>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn adl-button">Model</button>
+            </div>
+        </form>
+        <button onclick="history.back()" class="btn adl-secondary-button">Stream Generator</button>
+    </div>
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
