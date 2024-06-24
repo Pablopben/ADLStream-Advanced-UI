@@ -6,15 +6,35 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="../static/styles.css">
 
+<script>
+    function checkList(parameterList) {
+        for (i = 0; i < parameterList.length; i++) {
+            let numero = parameterList[i]
+            if (isNaN(parseInt(numero)) || isNaN(numero)) {
+                alert("The parameter must be a list made up of numbers");
+                return true;
+            }
+        }
+        return false;
+    }
+
+    function validateList(parameter) {
+        let parameterValue = document.forms["form"][parameter].value;
+        let parameterList = parameterValue.split(",")
+        document.getElementById("button").disabled = checkList(parameterList);
+    }
+</script>
+
 <section class="adl-section">
     <div class="container">
         <h2> MLP Parameters </h2>
-        <form method="post">
-            <input type = "hidden" name = "model" value = "mlp"/>
+        <form name="form" method="post">
+            <input type="hidden" name="model" value="mlp"/>
             <div class="form-group">
                 <label for="hiddenLayers">Hidden Layers</label>
                 <label>
-                    <input type="text" value="32,16,8" style="width: unset" id="hiddenLayers" name="hiddenLayers"
+                    <input type="text" value="32,16,8" onchange="validateList('hiddenLayers')" style="width: unset"
+                           id="hiddenLayers" name="hiddenLayers"
                            class="form-control">
                 </label>
             </div>
@@ -86,7 +106,7 @@
                 </label>
             </div>
             <div class="form-group">
-                <button type="submit" class="btn adl-button">Finish</button>
+                <button type="submit" id="button" class="btn adl-button">Finish</button>
             </div>
         </form>
         <button onclick="history.back()" class="btn adl-secondary-button">Evaluator</button>

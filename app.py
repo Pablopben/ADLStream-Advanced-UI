@@ -87,7 +87,8 @@ def stream():
                 stream = ADLStream.data.stream.CSVFileStream("csv/" + filename,
                                                              sep=sep, header=header, stream_period=streamPeriod,
                                                              index_col=indexCol, timeout=timeout)
-                streamParameters = {"CSV File Stream": {
+                streamParameters = {"Stream": {
+                    "Stream": "CSV File Stream",
                     "sep": sep,
                     "indexCol": indexCol,
                     "header": header,
@@ -104,7 +105,8 @@ def stream():
             stream = ADLStream.data.stream.FakeStream(
                 num_features=numFeatures, stream_length=streamLength, stream_period=streamPeriod
             )
-            streamParameters = {"Fake Stream": {
+            streamParameters = {"Stream": {
+                "Stream": "Fake Stream",
                 "numFeatures": numFeatures,
                 "streamLength": streamLength,
                 "streamPeriod": streamPeriod
@@ -119,49 +121,6 @@ def stream():
 @app.route('/result')
 def result():
     return render_template('result.html')
-
-
-# @app.route('/streamForm', methods=['GET', 'POST'])
-# def streamForm():
-#     streamName = variables["streamName"]
-#     if streamName == "CSVFileStream":
-#         if request.method == 'GET':
-#             return render_template('streams/csvStreamForm.html')
-#         else:
-#             if 'file' not in request.files:
-#                 flash('No file part')
-#                 return redirect(request.url)
-#             file = request.files['file']
-#             if file.filename == '':
-#                 flash('No selected file')
-#                 return redirect(request.url)
-#             if file and allowed_file(file.filename):
-#                 filename = secure_filename(file.filename)
-#                 variables.update({"datasetName": filename[0:-4]})
-#                 file.save("csv/" + filename)
-#                 sep = request.form['sep']
-#                 indexCol = int(request.form['indexCol'])
-#                 header = int(request.form['header'])
-#                 streamPeriod = int(request.form['streamPeriod'])
-#                 timeout = int(request.form['timeout'])
-#                 stream = ADLStream.data.stream.CSVFileStream("csv/" + filename,
-#                                                              sep=sep, header=header, stream_period=streamPeriod,
-#                                                              index_col=indexCol, timeout=timeout)
-#                 variables.update({"stream": stream})
-#                 return redirect("/selectGenerator")
-#     else:
-#         if request.method == 'GET':
-#             return render_template('streams/fakeStreamForm.html', variables=variables)
-#         else:
-#             numFeatures = int(request.form['numFeatures'])
-#             streamLength = int(request.form['streamLength'])
-#             streamPeriod = int(request.form['streamPeriod'])
-#             stream = ADLStream.data.stream.FakeStream(
-#                 num_features=numFeatures, stream_length=streamLength, stream_period=streamPeriod
-#             )
-#             variables.update({"stream": stream})
-#             return redirect("/selectGenerator")
-
 
 @app.route('/uploads/<name>')
 def download_file(name):
@@ -179,7 +138,8 @@ def selectGenerator():
             streamGenerator = ADLStream.data.ClassificationStreamGenerator(
                 stream=stream, label_index=labelIndex, one_hot_labels=oneHotLabels
             )
-            generatorParameters = {"classificationStreamGenerator": {
+            generatorParameters = {"Generator": {
+                "Generator": "Classification Stream Generator",
                 "labelIndex": labelIndex,
                 "oneHotLabels": oneHotLabels,
             }}
@@ -195,7 +155,8 @@ def selectGenerator():
             streamGenerator = ADLStream.data.MovingWindowStreamGenerator(
                 stream=stream, past_history=pastHistory, forecasting_horizon=forecastingHorizon, shift=shift
             )
-            generatorParameters = {"movingWindowStreamGenerator": {
+            generatorParameters = {"Generator": {
+                "Generator": "Moving Window Generator",
                 "pastHistory": pastHistory,
                 "forecastingHorizon": forecastingHorizon,
                 "shift": shift
@@ -208,37 +169,6 @@ def selectGenerator():
             return render_template('streamGenerators/classificationStreamGeneratorForm.html')
         else:
             return render_template('streamGenerators/movingWindowGeneratorForm.html')
-
-
-# @app.route('/generatorForm', methods=['GET', 'POST'])
-# def generatorForm():
-#     generatorName = variables["generatorName"]
-#     if generatorName == "classificationStreamGenerator":
-#         if request.method == 'GET':
-#             return render_template('streamGenerators/classificationStreamGeneratorForm.html')
-#         else:
-#             stream = variables["stream"]
-#             labelIndex = [int(x) for x in request.form["labelIndex"].split(",") if x != ""]
-#             oneHotLabels = [x.split() for x in request.form["oneHotLabels"].split(",") if x != ""]
-#             streamGenerator = ADLStream.data.ClassificationStreamGenerator(
-#                 stream=stream, label_index=labelIndex, one_hot_labels=oneHotLabels
-#             )
-#             variables.update({"generator": streamGenerator})
-#     else:
-#         if request.method == 'GET':
-#             return render_template('streamGenerators/movingWindowGeneratorForm.html')
-#         else:
-#             pastHistory = int(request.form['pastHistory'])
-#             forecastingHorizon = int(request.form['forecastingHorizon'])
-#             variables.update({"forecastingHorizon": forecastingHorizon})
-#             shift = int(request.form['shift'])
-#             stream = variables["stream"]
-#             streamGenerator = ADLStream.data.MovingWindowStreamGenerator(
-#                 stream=stream, past_history=pastHistory, forecasting_horizon=forecastingHorizon, shift=shift
-#             )
-#             variables.update({"generator": streamGenerator})
-#             return redirect("/selectEvaluator")
-
 
 @app.route('/selectEvaluator', methods=['GET', 'POST'])
 def selectEvaluator():
@@ -259,7 +189,8 @@ def selectEvaluator():
                 plot_file="static/test.jpg"
 
             )
-            evaluatorParameters = {"interleavedChunkEvaluator": {
+            evaluatorParameters = {"Evaluator": {
+                "Evaluator": "Interleaved Chunk Evaluator",
                 "chunkSize": chunkSize,
                 "metric": metric
             }}
@@ -281,7 +212,8 @@ def selectEvaluator():
                 show_plot=True,
                 plot_file="static/test.jpg"
             )
-            evaluatorParameters = {"interleavedChunkEvaluator": {
+            evaluatorParameters = {"Evaluator": {
+                "Evaluator": "Prequential Evaluator",
                 "chunkSize": chunkSize,
                 "metric": metric,
                 "faddingFactor": faddingFactor
@@ -304,174 +236,13 @@ def checkDatasetName(dataset, i):
         res = dataset
         return res
 
-
-# @app.route('/evaluatorForm', methods=['GET', 'POST'])
-# def evaluatorForm():
-#     evaluatorType = variables["evaluatorType"]
-#     if evaluatorType == "interleavedChunkEvaluator":
-#         if request.method == 'GET':
-#             if variables["streamName"] == "CSVFileStream":
-#                 dataSet = variables["datasetName"]
-#             else:
-#                 dataSet = "Fake Stream"
-#             return render_template('evaluators/interleavedChunkEvaluatorForm.html', dataSet=dataSet)
-#         else:
-#             chunkSize = int(request.form['chunkSize'])
-#             metric = request.form['metric']
-#             datasetName = request.form['datasetName']
-#             evaluator = ADLStream.evaluation.InterleavedChunkEvaluator(
-#                 chunk_size=chunkSize,
-#                 metric=metric,
-#                 results_file="static/results/" + datasetName + " Results.csv",
-#                 dataset_name=datasetName,
-#                 show_plot=True,
-#                 plot_file="static/test.jpg"
-#
-#             )
-#             variables.update({"evaluator": evaluator, "datasetName": datasetName})
-#             return redirect("/selectModel")
-#     else:
-#         if request.method == 'GET':
-#             if variables["streamName"] == "CSVFileStream":
-#                 dataSet = variables["datasetName"]
-#             else:
-#                 dataSet = "Fake Stream"
-#             return render_template('evaluators/prequentialEvaluatorForm.html', dataSet=dataSet)
-#         else:
-#             chunkSize = int(request.form['chunkSize'])
-#             faddingFactor = float(request.form['faddingFactor'])
-#             metric = request.form['metric']
-#             datasetName = request.form['datasetName']
-#             evaluator = ADLStream.evaluation.PrequentialEvaluator(
-#                 chunk_size=chunkSize,
-#                 metric=metric,
-#                 fadding_factor=faddingFactor,
-#                 results_file="static/results/" + datasetName + " Results.csv",
-#                 dataset_name=datasetName,
-#                 show_plot=True,
-#                 plot_file="static/test.jpg"
-#             )
-#             variables.update({"evaluator": evaluator,
-#                               "datasetName": datasetName})
-#             return redirect("/selectModel")
-
-
 @app.route('/selectModel', methods=['GET', 'POST'])
 def selectModel():
     if request.method == 'POST':
         model = request.form['model']
         return calculaParametros(model)
     else:
-        if variables["streamName"] == "CSVFileStream":
-            return render_template('models/selectModel.html')
-        else:
-            return render_template('models/selectModelFake.html')
-
-
-# @app.route('/modelForm', methods=['GET', 'POST'])
-# def modelForm():
-#     modelName = variables["modelName"]
-#     if request.method == 'GET':
-#         return render_template('models/' + modelName + 'Form.html')
-#     else:
-#         return calculaParametros(modelName)
-# if modelName == "mlp":
-#    if request.method == 'GET':
-#        return render_template('models/mlpForm.html')
-#    else:
-#        variables.update({"model": "mlp"})
-#        parameters = {}
-#        variables.update(({"parameters": parameters}))
-#        return redirect("/selectLossOpt")
-# elif modelName == "lstm":
-#    if request.method == 'GET':
-#        return render_template('models/lstmForm.html')
-#    else:
-#         variables.update({"model": "lstm"})
-#         recurrentUnits = [int(x) for x in request.form["recurrentUnits"].split(",") if x != ""]
-#         denseLayers = [int(x) for x in request.form["denseLayers"].split(",") if x != ""]
-#         recurrentDropout = int(request.form["dropout"])
-#         returnSequences = request.form["returnSequences"]
-#         denseDropout = float(request.form["denseDropout"])
-#         denseActivation = request.form["denseActivation"]
-#         outActivation = request.form["outActivation"]
-#         parameters = {"recurrent_units": recurrentUnits,
-#                       "recurrent_dropout": recurrentDropout,
-#                       "return_sequences": returnSequences,
-#                       "dense_layers": denseLayers,
-#                       "dense_dropout": denseDropout,
-#                       "dense_activation": denseActivation,
-#                       "out_activation": outActivation
-#                       }
-#         variables.update(({"parameters": parameters}))
-#         return redirect("/selectLossOpt")
-# elif modelName == "gru":
-#     if request.method == 'GET':
-#         return render_template('models/gruForm.html')
-#     else:
-#         variables.update({"model": "gru"})
-#         parameters = {}
-#         variables.update(({"parameters": parameters}))
-#         return redirect("/selectLossOpt")
-# elif modelName == "ernn":
-#     if request.method == 'GET':
-#         return render_template('models/ernnForm.html')
-#     else:
-#         variables.update({"model": "ernn"})
-#         parameters = {}
-#         variables.update(({"parameters": parameters}))
-#         return redirect("/selectLossOpt")
-# elif modelName == "esn":
-#     if request.method == 'GET':
-#         return render_template('models/esnForm.html')
-#     else:
-#         variables.update({"model": "esn"})
-#         parameters = {}
-#         variables.update(({"parameters": parameters}))
-#         return redirect("/selectLossOpt")
-# elif modelName == "cnn":
-#     if request.method == 'GET':
-#         return render_template('models/cnnForm.html')
-#     else:
-#         variables.update({"model": "cnn"})
-#         convLayers = [int(x) for x in request.form["convLayers"].split(",") if x != ""]
-#         kernelSizes = [int(x) for x in request.form["kernelSizes"].split(",") if x != ""]
-#         poolSizes = [int(x) for x in request.form["poolSizes"].split(",") if x != ""]
-#         denseLayers = [int(x) for x in request.form["denseLayers"].split(",") if x != ""]
-#         denseDropout = float(request.form['denseDropout'])
-#         activation = request.form['activation']
-#         denseActivation = request.form['denseActivation']
-#         outActivation = request.form['outActivation']
-#         parameters = {
-#             "conv_layers": convLayers,
-#             "kernel_sizes": kernelSizes,
-#             "pool_sizes": poolSizes,
-#             "dense_layers": denseLayers,
-#             "dense_dropout": denseDropout,
-#             "activation": activation,
-#             "dense_activation": denseActivation,
-#             "out_activation": outActivation
-#         }
-#         variables.update(({"parameters": parameters}))
-#         return redirect("/selectLossOpt")
-# elif modelName == "tcn":
-#     if request.method == 'GET':
-#         return render_template('models/tcnForm.html')
-#     else:
-#         variables.update({"model": "tcn"})
-#         denseLayers = [int(x) for x in request.form["denseLayers"].split(",") if x != ""]
-#         parameters = {}
-#         variables.update(({"parameters": parameters}))
-#         return redirect("/selectLossOpt")
-# else:
-#     if request.method == 'GET':
-#         return render_template('models/transformerForm.html')
-#     else:
-#         variables.update({"model": "transformer"})
-#         parameters = {}
-#         variables.update(({"parameters": parameters}))
-#         return redirect("/selectLossOpt")
-
+        return render_template('models/selectModel.html')
 
 @app.route('/lastParameters', methods=['GET', 'POST'])
 def selectLossOpt():
@@ -675,29 +446,11 @@ def calculaParametros(modelName):
                       "use_skip_connections": skipConnections,
                       "use_batch_norm": barchNorm
                       }
-    else:
-        forecastingHorizon = variables.get("forecastingHorizon")
-        attribute = [x for x in request.form["attribute"].split(",") if x != ""]
-        numHeads = int(request.form["numHeads"])
-        numLayers = int(request.form["numLayers"])
-        dModel = int(request.form["dModel"])
-        dff = int(request.form["dff"])
-        peInput = int(request.form["peInput"])
-        dropoutRate = float(request.form["dropoutRate"])
-        activation = request.form["activation"]
-        parameters = {"output_shape": [forecastingHorizon, 1],
-                      "attribute": attribute,
-                      "num_heads": numHeads,
-                      "num_layers": numLayers,
-                      "d_model": dModel,
-                      "dff": dff,
-                      "pe_input": peInput,
-                      # "pe_output":peOutput,
-                      "dropout_rate": dropoutRate,
-                      "activation": activation}
-    modelParameters = {modelName: parameters}
-    parameterValues.update(modelParameters)
     variables.update(({"parameters": parameters}))
+    modelParameters = {"Model": modelName}
+    modelParameters.update(parameters)
+    parameterValues.update({"Model":modelParameters})
+
     return redirect("/lastParameters")
 
 
