@@ -5,15 +5,47 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="../static/styles.css">
 
+<script>
+    function checkList(parameterList, parameter, updatedParameter) {
+        for (i = 0; i < parameterList.length; i++) {
+            let numero = parameterList[i]
+
+            if (isNaN(parseInt(numero)) || isNaN(numero)) {
+                if (parameter === updatedParameter) {
+                    alert("The parameter must be a list made up of numbers");
+                }
+                return true;
+            }
+        }
+        return false;
+    }
+
+    function validateList(parameter, updatedParameter) {
+        let parameterValue = document.forms["form"][parameter].value;
+        let parameterList = parameterValue.split(",")
+        if (parameter === "denseLayers" && parameterValue === "") {
+            return false;
+        }
+        return checkList(parameterList, parameter, updatedParameter);
+    }
+
+    function validateForm(updatedParameter) {
+        let recurrentUnits = validateList("recurrentUnits",updatedParameter);
+        let denseLayers = validateList("denseLayers",updatedParameter);
+        let disable = recurrentUnits || denseLayers;
+        document.getElementById("button").disabled = disable;
+    }
+</script>
+
 <section class="adl-section">
     <div class="container">
         <h2> GRU Parameters </h2>
-        <form method="post">
+        <form name="form" method="post">
             <input type="hidden" name="model" value="gru"/>
             <div class="form-group">
                 <label for="recurrentUnits">Recurrent Units</label>
                 <label>
-                    <input type="text" value="64" style="width: unset" id="nRecLayers" name="recurrentUnits"
+                    <input type="text" value="64" onchange="validateForm('recurrentUnits')" style="width: unset" id="nRecLayers" name="recurrentUnits"
                            class="form-control">
                 </label>
             </div>
@@ -38,7 +70,7 @@
             <div class="form-group">
                 <label for="denseLayers">Dense Layers</label>
                 <label>
-                    <input type="text" value="" placeholder="16,8" style="width: unset" id="denseLayers"
+                    <input type="text" value="" placeholder="16,8"  onchange="validateForm('denseLayers')" style="width: unset" id="denseLayers"
                            name="denseLayers"
                            class="form-control">
                 </label>
@@ -82,7 +114,7 @@
                 </label>
             </div>
             <div class="form-group">
-                <button type="submit" class="btn adl-button">Finish</button>
+                <button type="submit" id="button" class="btn adl-button">Finish</button>
             </div>
         </form>
     </div>

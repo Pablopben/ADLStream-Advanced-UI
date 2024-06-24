@@ -8,29 +8,52 @@
 <link rel="stylesheet" href="../static/styles.css">
 
 <script>
-    function checkLength(kernelList, convList){
+    function checkLength(updatedParameter) {
+        let kernelSizes = document.forms["form"]["kernelSizes"].value;
+        let convLayers = document.forms["form"]["convLayers"].value;
+        let kernelList = kernelSizes.split(",")
+        let convList = convLayers.split(",")
         if (kernelList.length !== convList.length) {
-            alert("The length must be the same");
+            if (updatedParameter === "KernelSizes" || updatedParameter === "convLayers") {
+                alert("The length of KernelSizes must be the same than Convolutional Layers");
+            }
             return true;
         } else {
             return false;
         }
     }
-    function validateForm() {
-        let kernelSizes = document.forms["form"]["kernelSizes"].value;
-        let convLayers = document.forms["form"]["convLayers"].value;
-        let kernelList = kernelSizes.split(",")
-        let convList = convLayers.split(",")
-        checkLength(kernelList, convList)
-        for (i = 0; i < kernelList.length; i++) {
-            let numero = kernelList[i]
-            if (isNaN(parseInt(numero))) {
-                alert("The list must be made up of numbers");
-                document.getElementById("button").disabled = true;
-                break;
+
+    function checkList(parameterList, parameter, updatedParameter) {
+        for (i = 0; i < parameterList.length; i++) {
+            let numero = parameterList[i]
+
+            if (isNaN(parseInt(numero)) || isNaN(numero)) {
+                if (parameter === updatedParameter) {
+                    alert("The parameter must be a list made up of numbers");
+                }
+                return true;
             }
         }
+        return false;
+    }
 
+    function validateList(parameter, updatedParameter) {
+        let parameterValue = document.forms["form"][parameter].value;
+        let parameterList = parameterValue.split(",")
+        if (parameter === "denseLayers" && parameterValue === "") {
+            return false;
+        }
+        return checkList(parameterList, parameter, updatedParameter);
+    }
+
+    function validateForm(updatedParameter) {
+        let length = checkLength(updatedParameter);
+        let convLayers = validateList("convLayers",updatedParameter);
+        let kernelSizes = validateList("kernelSizes",updatedParameter);
+        let poolSizes = validateList("poolSizes",updatedParameter);
+        let denseLayers = validateList("denseLayers",updatedParameter);
+        let disable = length || convLayers || kernelSizes || poolSizes || denseLayers;
+        document.getElementById("button").disabled = disable;
     }
 </script>
 
@@ -43,14 +66,15 @@
                 <input type="hidden" name="model" value="cnn"/>
                 <label for="convLayers">Convolutional Layers</label>
                 <label>
-                    <input type="text" value="64,128" style="width: unset" id="convLayers" name="convLayers"
+                    <input type="text" onchange="validateForm('convLayers')" value="64,128" style="width: unset" id="convLayers"
+                           name="convLayers"
                            class="form-control">
                 </label>
             </div>
             <div class="form-group">
                 <label for="kernelSizes">Kernel sizes</label>
                 <label>
-                    <input onchange="validateForm()" type="text" value="7,5" style="width: unset" id="kernelSizes"
+                    <input onchange="validateForm('kernelSizes')" type="text" value="7,5" style="width: unset" id="kernelSizes"
                            name="kernelSizes"
                            class="form-control">
                 </label>
@@ -58,14 +82,16 @@
             <div class="form-group">
                 <label for="poolSizes">Pool Sizes</label>
                 <label>
-                    <input type="text" value="2,2" style="width: unset" id="poolSizes" name="poolSizes"
+                    <input type="text" onchange="validateForm('poolSizes')" value="2,2" style="width: unset" id="poolSizes"
+                           name="poolSizes"
                            class="form-control">
                 </label>
             </div>
             <div class="form-group">
                 <label for="denseLayers">Dense Layers </label>
                 <label>
-                    <input type="text" value="" placeholder="16,8" style="width: unset" id="denseLayers"
+                    <input type="text" value="" onchange="validateForm('denseLayers')" placeholder="16,8" style="width: unset"
+                           id="denseLayers"
                            name="denseLayers"
                            class="form-control">
                 </label>

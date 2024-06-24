@@ -7,26 +7,46 @@
 <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
 <link rel="stylesheet" href="../static/styles.css">
 <header>
-    <!-- Fixed navbar -->
+
     <nav class="md-header">
         <div class="col-md-4 adl-name"><a href="/">
             <img src="../static/logo.png" class="adl-logo"></a>
             ADLstream
         </div>
-        <div class="col-md-4 adl-index"> Stream - <b style="color: white">Generator</b>  - Evaluator - Model - End</div>
+        <div class="col-md-4 adl-index"> Stream - <b style="color: white">Generator</b> - Evaluator - Model - End</div>
         <div class="col-md-4"></div>
     </nav>
 </header>
 
+
+<script>
+    function checkList(labelList) {
+        for (i = 0; i < labelList.length; i++) {
+            let numero = labelList[i]
+            if (isNaN(parseInt(numero)) || isNaN(numero)) {
+                alert("The list must be made up of numbers");
+                return true;
+            }
+        }
+        return false;
+    }
+
+    function validateForm() {
+        let labelIndex = document.forms["form"]["labelIndex"].value;
+        let labelList = labelIndex.split(",")
+        document.getElementById("button").disabled = checkList(labelList);
+    }
+</script>
+
 <section class="adl-section">
     <div class="container">
         <h2>Classification Stream Generator Parameters</h2>
-        <form method="post">
-            <input type = "hidden" name = "generator" value = "classificationStreamGenerator"/>
+        <form name="form" method="post">
+            <input type="hidden" name="generator" value="classificationStreamGenerator"/>
             <div class="form-group">
                 <label for="labelIndex">Label Index</label>
                 <label>
-                    <input type="text" name="labelIndex"
+                    <input onchange="validateForm()" id="labelIndex" type="text" name="labelIndex"
                            value="-1" class="form-control">
                 </label>
             </div>
@@ -38,11 +58,11 @@
                 </label>
             </div>
             <div class="form-group">
-                <button type="submit" class="btn adl-button">Evaluator</button>
+                <button type="submit" id="button" class="btn adl-button">Evaluator</button>
             </div>
         </form>
-        <button onclick="history.back()" class="btn adl-secondary-button">Stream</button>
     </div>
+    <button onclick="history.back()"  class="btn adl-secondary-button">Stream</button>
 </section>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

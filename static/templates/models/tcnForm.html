@@ -6,10 +6,42 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="../static/styles.css">
 
+<script>
+    function checkList(parameterList, parameter, updatedParameter) {
+        for (i = 0; i < parameterList.length; i++) {
+            let numero = parameterList[i]
+
+            if (isNaN(parseInt(numero)) || isNaN(numero)) {
+                if (parameter === updatedParameter) {
+                    alert("The parameter must be a list made up of numbers");
+                }
+                return true;
+            }
+        }
+        return false;
+    }
+
+    function validateList(parameter, updatedParameter) {
+        let parameterValue = document.forms["form"][parameter].value;
+        let parameterList = parameterValue.split(",")
+        if (parameter === "denseLayers" && parameterValue === "") {
+            return false;
+        }
+        return checkList(parameterList, parameter, updatedParameter);
+    }
+
+    function validateForm(updatedParameter) {
+        let dilations = validateList("dilations", updatedParameter);
+        let denseLayers = validateList("denseLayers", updatedParameter);
+        let disable = dilations || denseLayers;
+        document.getElementById("button").disabled = disable;
+    }
+</script>
+
 <section class="adl-section">
     <div class="container">
         <h2> TCN Parameters </h2>
-        <form method="post">
+        <form name="form" method="post">
             <input type="hidden" name="model" value="tcn"/>
             <div class="form-group">
                 <label for="nbFilters">Convolutional Filters</label>
@@ -32,7 +64,8 @@
             <div class="form-group">
                 <label for="dilations">List of dilations</label>
                 <label>
-                    <input type="text" value="1,2,4,8,16" style="width: unset" id="dilations" name="dilations"
+                    <input type="text" value="1,2,4,8,16" onchange="validateForm('dilations')" style="width: unset"
+                           id="dilations" name="dilations"
                            class="form-control">
                 </label>
             </div>
@@ -144,7 +177,7 @@
             <div class="form-group">
                 <label for="denseLayers">Hidden neurons for each dense layers</label>
                 <label>
-                    <input type="text" value="" placeholder="16,8" style="width: unset" id="denseLayers"
+                    <input type="text" value="" onchange="validateForm('denseLayers')" placeholder="16,8" style="width: unset" id="denseLayers"
                            name="denseLayers"
                            class="form-control">
                 </label>
@@ -187,7 +220,7 @@
                 </label>
             </div>
             <div class="form-group">
-                <button type="submit" class="btn adl-button">Finish</button>
+                <button type="submit" id="button" class="btn adl-button">Finish</button>
             </div>
         </form>
         <button onclick="history.back()" class="btn adl-secondary-button">Evaluator</button>

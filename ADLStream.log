@@ -1,5 +1,1596 @@
-2024-06-21 19:13:39,403 WARNING  TRAINING-PROCESS - There are no enough GPU devices, using CPU
-2024-06-21 19:13:39,410 WARNING  PREDICTING-PROCESS - There are no enough GPU devices, using CPU
-2024-06-21 19:13:40,496 INFO     GENERATOR-PROCESS - Stream has finished
-2024-06-21 19:13:40,497 INFO     PREDICTING-PROCESS - Time out, no instances were received. Finishing process.
-2024-06-21 19:13:40,509 INFO     TRAINING-PROCESS - Finished stream
+2024-06-23 21:12:53,917 WARNING  TRAINING-PROCESS - There are no enough GPU devices, using CPU
+2024-06-23 21:12:53,941 WARNING  PREDICTING-PROCESS - There are no enough GPU devices, using CPU
+2024-06-23 21:13:01,641 INFO     TRAINING-PROCESS - Training with the last 60 instances
+2024-06-23 21:13:02,343 INFO     Starting predictions
+2024-06-23 21:13:02,348 INFO     TRAINING-PROCESS - Training with the last 60 instances
+2024-06-23 21:13:02,412 INFO     TRAINING-PROCESS - Training with the last 70 instances
+2024-06-23 21:13:02,837 INFO     PREDICTING-PROCESS: 13 instances predicted.
+2024-06-23 21:13:02,851 INFO     TRAINING-PROCESS - Training with the last 75 instances
+2024-06-23 21:13:02,910 INFO     PREDICTING-PROCESS: 5 instances predicted.
+2024-06-23 21:13:02,953 INFO     TRAINING-PROCESS - Training with the last 76 instances
+2024-06-23 21:13:03,009 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:03,049 INFO     TRAINING-PROCESS - Training with the last 77 instances
+2024-06-23 21:13:03,080 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:03,142 INFO     TRAINING-PROCESS - Training with the last 78 instances
+2024-06-23 21:13:03,178 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:03,217 INFO     TRAINING-PROCESS - Training with the last 78 instances
+2024-06-23 21:13:03,267 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:03,281 INFO     TRAINING-PROCESS - Training with the last 79 instances
+2024-06-23 21:13:03,362 INFO     TRAINING-PROCESS - Training with the last 80 instances
+2024-06-23 21:13:03,396 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:03,430 INFO     TRAINING-PROCESS - Training with the last 81 instances
+2024-06-23 21:13:03,484 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:03,505 INFO     TRAINING-PROCESS - Training with the last 81 instances
+2024-06-23 21:13:03,579 INFO     TRAINING-PROCESS - Training with the last 82 instances
+2024-06-23 21:13:03,600 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:03,671 INFO     TRAINING-PROCESS - Training with the last 83 instances
+2024-06-23 21:13:03,675 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:03,759 INFO     TRAINING-PROCESS - Training with the last 84 instances
+2024-06-23 21:13:03,771 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:03,839 INFO     TRAINING-PROCESS - Training with the last 85 instances
+2024-06-23 21:13:03,878 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:03,909 INFO     TRAINING-PROCESS - Training with the last 85 instances
+2024-06-23 21:13:03,977 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:03,979 INFO     TRAINING-PROCESS - Training with the last 86 instances
+2024-06-23 21:13:04,048 INFO     TRAINING-PROCESS - Training with the last 87 instances
+2024-06-23 21:13:04,081 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:04,126 INFO     TRAINING-PROCESS - Training with the last 88 instances
+2024-06-23 21:13:04,169 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:04,196 INFO     TRAINING-PROCESS - Training with the last 88 instances
+2024-06-23 21:13:04,268 INFO     TRAINING-PROCESS - Training with the last 89 instances
+2024-06-23 21:13:04,286 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:04,345 INFO     TRAINING-PROCESS - Training with the last 90 instances
+2024-06-23 21:13:04,386 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:04,428 INFO     TRAINING-PROCESS - Training with the last 91 instances
+2024-06-23 21:13:04,486 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:04,501 INFO     TRAINING-PROCESS - Training with the last 91 instances
+2024-06-23 21:13:04,565 INFO     TRAINING-PROCESS - Training with the last 92 instances
+2024-06-23 21:13:04,579 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:04,638 INFO     TRAINING-PROCESS - Training with the last 93 instances
+2024-06-23 21:13:04,673 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:04,716 INFO     TRAINING-PROCESS - Training with the last 93 instances
+2024-06-23 21:13:04,771 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:04,784 INFO     TRAINING-PROCESS - Training with the last 94 instances
+2024-06-23 21:13:04,852 INFO     TRAINING-PROCESS - Training with the last 95 instances
+2024-06-23 21:13:04,881 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:04,930 INFO     TRAINING-PROCESS - Training with the last 95 instances
+2024-06-23 21:13:04,971 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:05,000 INFO     TRAINING-PROCESS - Training with the last 96 instances
+2024-06-23 21:13:05,073 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:05,075 INFO     TRAINING-PROCESS - Training with the last 97 instances
+2024-06-23 21:13:05,147 INFO     TRAINING-PROCESS - Training with the last 98 instances
+2024-06-23 21:13:05,170 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:05,224 INFO     TRAINING-PROCESS - Training with the last 98 instances
+2024-06-23 21:13:05,287 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:05,290 INFO     TRAINING-PROCESS - Training with the last 99 instances
+2024-06-23 21:13:05,363 INFO     TRAINING-PROCESS - Training with the last 100 instances
+2024-06-23 21:13:05,384 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:05,440 INFO     TRAINING-PROCESS - Training with the last 101 instances
+2024-06-23 21:13:05,480 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:05,516 INFO     TRAINING-PROCESS - Training with the last 101 instances
+2024-06-23 21:13:05,575 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:05,585 INFO     TRAINING-PROCESS - Training with the last 102 instances
+2024-06-23 21:13:05,656 INFO     TRAINING-PROCESS - Training with the last 103 instances
+2024-06-23 21:13:05,681 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:05,736 INFO     TRAINING-PROCESS - Training with the last 104 instances
+2024-06-23 21:13:05,771 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:05,817 INFO     TRAINING-PROCESS - Training with the last 104 instances
+2024-06-23 21:13:05,869 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:05,888 INFO     TRAINING-PROCESS - Training with the last 105 instances
+2024-06-23 21:13:05,962 INFO     TRAINING-PROCESS - Training with the last 106 instances
+2024-06-23 21:13:05,978 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:06,031 INFO     TRAINING-PROCESS - Training with the last 107 instances
+2024-06-23 21:13:06,080 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:06,110 INFO     TRAINING-PROCESS - Training with the last 107 instances
+2024-06-23 21:13:06,176 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:06,180 INFO     TRAINING-PROCESS - Training with the last 108 instances
+2024-06-23 21:13:06,266 INFO     TRAINING-PROCESS - Training with the last 109 instances
+2024-06-23 21:13:06,276 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:06,361 INFO     TRAINING-PROCESS - Training with the last 110 instances
+2024-06-23 21:13:06,375 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:06,440 INFO     TRAINING-PROCESS - Training with the last 111 instances
+2024-06-23 21:13:06,482 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:06,514 INFO     TRAINING-PROCESS - Training with the last 111 instances
+2024-06-23 21:13:06,572 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:06,582 INFO     TRAINING-PROCESS - Training with the last 112 instances
+2024-06-23 21:13:06,654 INFO     TRAINING-PROCESS - Training with the last 113 instances
+2024-06-23 21:13:06,676 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:06,734 INFO     TRAINING-PROCESS - Training with the last 113 instances
+2024-06-23 21:13:06,778 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:06,806 INFO     TRAINING-PROCESS - Training with the last 114 instances
+2024-06-23 21:13:06,881 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:06,884 INFO     TRAINING-PROCESS - Training with the last 115 instances
+2024-06-23 21:13:06,959 INFO     TRAINING-PROCESS - Training with the last 116 instances
+2024-06-23 21:13:06,978 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:07,043 INFO     TRAINING-PROCESS - Training with the last 117 instances
+2024-06-23 21:13:07,083 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:07,123 INFO     TRAINING-PROCESS - Training with the last 117 instances
+2024-06-23 21:13:07,171 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:07,200 INFO     TRAINING-PROCESS - Training with the last 118 instances
+2024-06-23 21:13:07,274 INFO     TRAINING-PROCESS - Training with the last 119 instances
+2024-06-23 21:13:07,277 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:07,351 INFO     TRAINING-PROCESS - Training with the last 120 instances
+2024-06-23 21:13:07,394 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:07,417 INFO     TRAINING-PROCESS - Training with the last 120 instances
+2024-06-23 21:13:07,483 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:07,485 INFO     TRAINING-PROCESS - Training with the last 121 instances
+2024-06-23 21:13:07,563 INFO     TRAINING-PROCESS - Training with the last 122 instances
+2024-06-23 21:13:07,594 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:07,637 INFO     TRAINING-PROCESS - Training with the last 123 instances
+2024-06-23 21:13:07,681 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:07,717 INFO     TRAINING-PROCESS - Training with the last 123 instances
+2024-06-23 21:13:07,779 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:07,792 INFO     TRAINING-PROCESS - Training with the last 124 instances
+2024-06-23 21:13:07,867 INFO     TRAINING-PROCESS - Training with the last 125 instances
+2024-06-23 21:13:07,877 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:07,947 INFO     TRAINING-PROCESS - Training with the last 126 instances
+2024-06-23 21:13:07,977 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:08,022 INFO     TRAINING-PROCESS - Training with the last 126 instances
+2024-06-23 21:13:08,082 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:08,097 INFO     TRAINING-PROCESS - Training with the last 127 instances
+2024-06-23 21:13:08,174 INFO     TRAINING-PROCESS - Training with the last 128 instances
+2024-06-23 21:13:08,219 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:08,255 INFO     TRAINING-PROCESS - Training with the last 129 instances
+2024-06-23 21:13:08,278 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:08,339 INFO     TRAINING-PROCESS - Training with the last 130 instances
+2024-06-23 21:13:08,388 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:08,428 INFO     TRAINING-PROCESS - Training with the last 130 instances
+2024-06-23 21:13:08,487 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:08,503 INFO     TRAINING-PROCESS - Training with the last 131 instances
+2024-06-23 21:13:08,580 INFO     TRAINING-PROCESS - Training with the last 132 instances
+2024-06-23 21:13:08,580 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:08,664 INFO     TRAINING-PROCESS - Training with the last 133 instances
+2024-06-23 21:13:08,678 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:08,749 INFO     TRAINING-PROCESS - Training with the last 134 instances
+2024-06-23 21:13:08,779 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:08,827 INFO     TRAINING-PROCESS - Training with the last 134 instances
+2024-06-23 21:13:08,875 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:08,903 INFO     TRAINING-PROCESS - Training with the last 135 instances
+2024-06-23 21:13:08,979 INFO     TRAINING-PROCESS - Training with the last 136 instances
+2024-06-23 21:13:09,002 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:09,065 INFO     TRAINING-PROCESS - Training with the last 137 instances
+2024-06-23 21:13:09,113 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:09,154 INFO     TRAINING-PROCESS - Training with the last 138 instances
+2024-06-23 21:13:09,180 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:09,235 INFO     TRAINING-PROCESS - Training with the last 138 instances
+2024-06-23 21:13:09,307 INFO     TRAINING-PROCESS - Training with the last 139 instances
+2024-06-23 21:13:09,309 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:09,383 INFO     TRAINING-PROCESS - Training with the last 140 instances
+2024-06-23 21:13:09,383 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:09,472 INFO     TRAINING-PROCESS - Training with the last 141 instances
+2024-06-23 21:13:09,483 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:09,565 INFO     TRAINING-PROCESS - Training with the last 142 instances
+2024-06-23 21:13:09,577 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:09,654 INFO     TRAINING-PROCESS - Training with the last 143 instances
+2024-06-23 21:13:09,677 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:09,733 INFO     TRAINING-PROCESS - Training with the last 143 instances
+2024-06-23 21:13:09,778 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:09,820 INFO     TRAINING-PROCESS - Training with the last 144 instances
+2024-06-23 21:13:09,885 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:09,896 INFO     TRAINING-PROCESS - Training with the last 145 instances
+2024-06-23 21:13:09,979 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:10,018 INFO     TRAINING-PROCESS - Training with the last 146 instances
+2024-06-23 21:13:10,080 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:10,110 INFO     TRAINING-PROCESS - Training with the last 147 instances
+2024-06-23 21:13:10,185 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:10,188 INFO     TRAINING-PROCESS - Training with the last 148 instances
+2024-06-23 21:13:10,273 INFO     TRAINING-PROCESS - Training with the last 149 instances
+2024-06-23 21:13:10,284 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:10,357 INFO     TRAINING-PROCESS - Training with the last 150 instances
+2024-06-23 21:13:10,387 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:10,437 INFO     TRAINING-PROCESS - Training with the last 150 instances
+2024-06-23 21:13:10,480 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:10,519 INFO     TRAINING-PROCESS - Training with the last 151 instances
+2024-06-23 21:13:10,582 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:10,600 INFO     TRAINING-PROCESS - Training with the last 152 instances
+2024-06-23 21:13:10,681 INFO     TRAINING-PROCESS - Training with the last 153 instances
+2024-06-23 21:13:10,682 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:10,760 INFO     TRAINING-PROCESS - Training with the last 154 instances
+2024-06-23 21:13:10,785 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:10,839 INFO     TRAINING-PROCESS - Training with the last 154 instances
+2024-06-23 21:13:10,888 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:10,918 INFO     TRAINING-PROCESS - Training with the last 155 instances
+2024-06-23 21:13:10,980 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:11,003 INFO     TRAINING-PROCESS - Training with the last 156 instances
+2024-06-23 21:13:11,081 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:11,087 INFO     TRAINING-PROCESS - Training with the last 157 instances
+2024-06-23 21:13:11,163 INFO     TRAINING-PROCESS - Training with the last 158 instances
+2024-06-23 21:13:11,181 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:11,251 INFO     TRAINING-PROCESS - Training with the last 159 instances
+2024-06-23 21:13:11,278 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:11,338 INFO     TRAINING-PROCESS - Training with the last 159 instances
+2024-06-23 21:13:11,398 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:11,419 INFO     TRAINING-PROCESS - Training with the last 160 instances
+2024-06-23 21:13:11,487 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:11,509 INFO     TRAINING-PROCESS - Training with the last 161 instances
+2024-06-23 21:13:11,592 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:11,598 INFO     TRAINING-PROCESS - Training with the last 162 instances
+2024-06-23 21:13:11,678 INFO     TRAINING-PROCESS - Training with the last 163 instances
+2024-06-23 21:13:11,690 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:11,761 INFO     TRAINING-PROCESS - Training with the last 164 instances
+2024-06-23 21:13:11,783 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:11,845 INFO     TRAINING-PROCESS - Training with the last 164 instances
+2024-06-23 21:13:11,885 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:11,924 INFO     TRAINING-PROCESS - Training with the last 165 instances
+2024-06-23 21:13:11,984 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:12,007 INFO     TRAINING-PROCESS - Training with the last 166 instances
+2024-06-23 21:13:12,092 INFO     TRAINING-PROCESS - Training with the last 167 instances
+2024-06-23 21:13:12,094 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:12,178 INFO     TRAINING-PROCESS - Training with the last 168 instances
+2024-06-23 21:13:12,198 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:12,263 INFO     TRAINING-PROCESS - Training with the last 169 instances
+2024-06-23 21:13:12,287 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:12,345 INFO     TRAINING-PROCESS - Training with the last 170 instances
+2024-06-23 21:13:12,386 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:12,452 INFO     TRAINING-PROCESS - Training with the last 171 instances
+2024-06-23 21:13:12,490 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:12,537 INFO     TRAINING-PROCESS - Training with the last 171 instances
+2024-06-23 21:13:12,579 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:12,638 INFO     TRAINING-PROCESS - Training with the last 172 instances
+2024-06-23 21:13:12,685 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:12,725 INFO     TRAINING-PROCESS - Training with the last 173 instances
+2024-06-23 21:13:12,781 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:12,806 INFO     TRAINING-PROCESS - Training with the last 174 instances
+2024-06-23 21:13:12,891 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:12,896 INFO     TRAINING-PROCESS - Training with the last 175 instances
+2024-06-23 21:13:12,977 INFO     TRAINING-PROCESS - Training with the last 176 instances
+2024-06-23 21:13:13,001 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:13,055 INFO     TRAINING-PROCESS - Training with the last 177 instances
+2024-06-23 21:13:13,083 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:13,306 INFO     TRAINING-PROCESS - Training with the last 177 instances
+2024-06-23 21:13:13,348 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:13,386 INFO     TRAINING-PROCESS - Training with the last 179 instances
+2024-06-23 21:13:13,408 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:13,459 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:13,488 INFO     TRAINING-PROCESS - Training with the last 180 instances
+2024-06-23 21:13:13,554 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:13,567 INFO     TRAINING-PROCESS - Training with the last 181 instances
+2024-06-23 21:13:13,655 INFO     TRAINING-PROCESS - Training with the last 182 instances
+2024-06-23 21:13:13,670 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:13,744 INFO     TRAINING-PROCESS - Training with the last 183 instances
+2024-06-23 21:13:13,757 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:13,835 INFO     TRAINING-PROCESS - Training with the last 184 instances
+2024-06-23 21:13:13,859 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:13,924 INFO     TRAINING-PROCESS - Training with the last 185 instances
+2024-06-23 21:13:13,951 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:14,048 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:14,053 INFO     TRAINING-PROCESS - Training with the last 186 instances
+2024-06-23 21:13:14,137 INFO     TRAINING-PROCESS - Training with the last 187 instances
+2024-06-23 21:13:14,168 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:14,217 INFO     TRAINING-PROCESS - Training with the last 188 instances
+2024-06-23 21:13:14,267 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:14,307 INFO     TRAINING-PROCESS - Training with the last 188 instances
+2024-06-23 21:13:14,351 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:14,383 INFO     TRAINING-PROCESS - Training with the last 189 instances
+2024-06-23 21:13:14,474 INFO     TRAINING-PROCESS - Training with the last 190 instances
+2024-06-23 21:13:14,474 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:14,558 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:14,561 INFO     TRAINING-PROCESS - Training with the last 191 instances
+2024-06-23 21:13:14,656 INFO     TRAINING-PROCESS - Training with the last 192 instances
+2024-06-23 21:13:14,658 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:14,746 INFO     TRAINING-PROCESS - Training with the last 193 instances
+2024-06-23 21:13:14,755 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:14,843 INFO     TRAINING-PROCESS - Training with the last 194 instances
+2024-06-23 21:13:14,863 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:14,928 INFO     TRAINING-PROCESS - Training with the last 195 instances
+2024-06-23 21:13:14,966 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:15,016 INFO     TRAINING-PROCESS - Training with the last 196 instances
+2024-06-23 21:13:15,061 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:15,100 INFO     TRAINING-PROCESS - Training with the last 196 instances
+2024-06-23 21:13:15,162 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:15,183 INFO     TRAINING-PROCESS - Training with the last 197 instances
+2024-06-23 21:13:15,258 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:15,274 INFO     TRAINING-PROCESS - Training with the last 198 instances
+2024-06-23 21:13:15,362 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:15,401 INFO     TRAINING-PROCESS - Training with the last 199 instances
+2024-06-23 21:13:15,474 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:15,493 INFO     TRAINING-PROCESS - Training with the last 200 instances
+2024-06-23 21:13:15,571 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:15,578 INFO     TRAINING-PROCESS - Training with the last 201 instances
+2024-06-23 21:13:15,668 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:15,674 INFO     TRAINING-PROCESS - Training with the last 202 instances
+2024-06-23 21:13:15,761 INFO     TRAINING-PROCESS - Training with the last 203 instances
+2024-06-23 21:13:15,765 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:15,849 INFO     TRAINING-PROCESS - Training with the last 204 instances
+2024-06-23 21:13:15,868 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:15,936 INFO     TRAINING-PROCESS - Training with the last 205 instances
+2024-06-23 21:13:15,961 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:16,033 INFO     TRAINING-PROCESS - Training with the last 206 instances
+2024-06-23 21:13:16,051 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:16,125 INFO     TRAINING-PROCESS - Training with the last 207 instances
+2024-06-23 21:13:16,153 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:16,216 INFO     TRAINING-PROCESS - Training with the last 207 instances
+2024-06-23 21:13:16,286 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:16,305 INFO     TRAINING-PROCESS - Training with the last 208 instances
+2024-06-23 21:13:16,350 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:16,392 INFO     TRAINING-PROCESS - Training with the last 209 instances
+2024-06-23 21:13:16,451 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:16,481 INFO     TRAINING-PROCESS - Training with the last 210 instances
+2024-06-23 21:13:16,568 INFO     TRAINING-PROCESS - Training with the last 211 instances
+2024-06-23 21:13:16,569 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:16,656 INFO     TRAINING-PROCESS - Training with the last 212 instances
+2024-06-23 21:13:16,668 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:16,749 INFO     TRAINING-PROCESS - Training with the last 213 instances
+2024-06-23 21:13:16,762 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:16,837 INFO     TRAINING-PROCESS - Training with the last 214 instances
+2024-06-23 21:13:16,858 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:16,925 INFO     TRAINING-PROCESS - Training with the last 215 instances
+2024-06-23 21:13:16,955 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:17,016 INFO     TRAINING-PROCESS - Training with the last 215 instances
+2024-06-23 21:13:17,060 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:17,102 INFO     TRAINING-PROCESS - Training with the last 216 instances
+2024-06-23 21:13:17,163 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:17,190 INFO     TRAINING-PROCESS - Training with the last 217 instances
+2024-06-23 21:13:17,276 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:17,285 INFO     TRAINING-PROCESS - Training with the last 218 instances
+2024-06-23 21:13:17,376 INFO     TRAINING-PROCESS - Training with the last 219 instances
+2024-06-23 21:13:17,376 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:17,463 INFO     TRAINING-PROCESS - Training with the last 220 instances
+2024-06-23 21:13:17,489 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:17,561 INFO     TRAINING-PROCESS - Training with the last 221 instances
+2024-06-23 21:13:17,563 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:17,651 INFO     TRAINING-PROCESS - Training with the last 222 instances
+2024-06-23 21:13:17,661 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:17,738 INFO     TRAINING-PROCESS - Training with the last 223 instances
+2024-06-23 21:13:17,766 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:17,826 INFO     TRAINING-PROCESS - Training with the last 224 instances
+2024-06-23 21:13:17,861 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:17,914 INFO     TRAINING-PROCESS - Training with the last 224 instances
+2024-06-23 21:13:17,962 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:17,999 INFO     TRAINING-PROCESS - Training with the last 225 instances
+2024-06-23 21:13:18,060 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:18,088 INFO     TRAINING-PROCESS - Training with the last 226 instances
+2024-06-23 21:13:18,172 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:18,179 INFO     TRAINING-PROCESS - Training with the last 227 instances
+2024-06-23 21:13:18,262 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:18,285 INFO     TRAINING-PROCESS - Training with the last 228 instances
+2024-06-23 21:13:18,360 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:18,413 INFO     TRAINING-PROCESS - Training with the last 229 instances
+2024-06-23 21:13:18,463 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:18,499 INFO     TRAINING-PROCESS - Training with the last 230 instances
+2024-06-23 21:13:18,554 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:18,597 INFO     TRAINING-PROCESS - Training with the last 231 instances
+2024-06-23 21:13:18,668 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:18,727 INFO     TRAINING-PROCESS - Training with the last 233 instances
+2024-06-23 21:13:18,756 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:18,818 INFO     TRAINING-PROCESS - Training with the last 233 instances
+2024-06-23 21:13:18,860 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:18,904 INFO     TRAINING-PROCESS - Training with the last 234 instances
+2024-06-23 21:13:18,965 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:18,991 INFO     TRAINING-PROCESS - Training with the last 235 instances
+2024-06-23 21:13:19,059 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:19,079 INFO     TRAINING-PROCESS - Training with the last 236 instances
+2024-06-23 21:13:19,162 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:19,169 INFO     TRAINING-PROCESS - Training with the last 237 instances
+2024-06-23 21:13:19,294 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:19,300 INFO     TRAINING-PROCESS - Training with the last 238 instances
+2024-06-23 21:13:19,364 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:19,389 INFO     TRAINING-PROCESS - Training with the last 239 instances
+2024-06-23 21:13:19,458 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:19,500 INFO     TRAINING-PROCESS - Training with the last 240 instances
+2024-06-23 21:13:19,568 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:19,584 INFO     TRAINING-PROCESS - Training with the last 241 instances
+2024-06-23 21:13:19,660 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:19,679 INFO     TRAINING-PROCESS - Training with the last 242 instances
+2024-06-23 21:13:19,768 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:19,790 INFO     TRAINING-PROCESS - Training with the last 243 instances
+2024-06-23 21:13:19,860 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:19,886 INFO     TRAINING-PROCESS - Training with the last 244 instances
+2024-06-23 21:13:19,972 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:19,978 INFO     TRAINING-PROCESS - Training with the last 245 instances
+2024-06-23 21:13:20,071 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:20,110 INFO     TRAINING-PROCESS - Training with the last 246 instances
+2024-06-23 21:13:20,156 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:20,206 INFO     TRAINING-PROCESS - Training with the last 247 instances
+2024-06-23 21:13:20,255 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:20,309 INFO     TRAINING-PROCESS - Training with the last 248 instances
+2024-06-23 21:13:20,377 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:20,397 INFO     TRAINING-PROCESS - Training with the last 249 instances
+2024-06-23 21:13:20,484 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:20,492 INFO     TRAINING-PROCESS - Training with the last 250 instances
+2024-06-23 21:13:20,576 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:20,584 INFO     TRAINING-PROCESS - Training with the last 251 instances
+2024-06-23 21:13:20,668 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:20,686 INFO     TRAINING-PROCESS - Training with the last 252 instances
+2024-06-23 21:13:20,776 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:20,777 INFO     TRAINING-PROCESS - Training with the last 253 instances
+2024-06-23 21:13:20,883 INFO     TRAINING-PROCESS - Training with the last 254 instances
+2024-06-23 21:13:20,896 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:20,976 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:20,982 INFO     TRAINING-PROCESS - Training with the last 255 instances
+2024-06-23 21:13:21,068 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:21,112 INFO     TRAINING-PROCESS - Training with the last 256 instances
+2024-06-23 21:13:21,156 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:21,204 INFO     TRAINING-PROCESS - Training with the last 257 instances
+2024-06-23 21:13:21,269 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:21,296 INFO     TRAINING-PROCESS - Training with the last 258 instances
+2024-06-23 21:13:21,375 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:21,393 INFO     TRAINING-PROCESS - Training with the last 259 instances
+2024-06-23 21:13:21,466 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:21,496 INFO     TRAINING-PROCESS - Training with the last 260 instances
+2024-06-23 21:13:21,585 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:21,593 INFO     TRAINING-PROCESS - Training with the last 261 instances
+2024-06-23 21:13:21,664 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:21,692 INFO     TRAINING-PROCESS - Training with the last 262 instances
+2024-06-23 21:13:21,764 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:21,792 INFO     TRAINING-PROCESS - Training with the last 263 instances
+2024-06-23 21:13:21,877 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:21,885 INFO     TRAINING-PROCESS - Training with the last 264 instances
+2024-06-23 21:13:21,974 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:21,981 INFO     TRAINING-PROCESS - Training with the last 265 instances
+2024-06-23 21:13:22,068 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:22,077 INFO     TRAINING-PROCESS - Training with the last 266 instances
+2024-06-23 21:13:22,174 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:22,181 INFO     TRAINING-PROCESS - Training with the last 267 instances
+2024-06-23 21:13:22,263 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:22,311 INFO     TRAINING-PROCESS - Training with the last 268 instances
+2024-06-23 21:13:22,365 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:22,414 INFO     TRAINING-PROCESS - Training with the last 269 instances
+2024-06-23 21:13:22,460 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:22,506 INFO     TRAINING-PROCESS - Training with the last 270 instances
+2024-06-23 21:13:22,591 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:22,611 INFO     TRAINING-PROCESS - Training with the last 271 instances
+2024-06-23 21:13:22,664 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:22,706 INFO     TRAINING-PROCESS - Training with the last 272 instances
+2024-06-23 21:13:22,758 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:22,811 INFO     TRAINING-PROCESS - Training with the last 273 instances
+2024-06-23 21:13:22,861 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:22,904 INFO     TRAINING-PROCESS - Training with the last 274 instances
+2024-06-23 21:13:22,964 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:23,039 INFO     TRAINING-PROCESS - Training with the last 276 instances
+2024-06-23 21:13:23,059 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:23,167 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:23,177 INFO     TRAINING-PROCESS - Training with the last 277 instances
+2024-06-23 21:13:23,273 INFO     TRAINING-PROCESS - Training with the last 278 instances
+2024-06-23 21:13:23,284 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:23,365 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:23,407 INFO     TRAINING-PROCESS - Training with the last 279 instances
+2024-06-23 21:13:23,471 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:23,506 INFO     TRAINING-PROCESS - Training with the last 280 instances
+2024-06-23 21:13:23,593 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:23,602 INFO     TRAINING-PROCESS - Training with the last 281 instances
+2024-06-23 21:13:23,664 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:23,737 INFO     TRAINING-PROCESS - Training with the last 283 instances
+2024-06-23 21:13:23,763 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:23,863 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:23,874 INFO     TRAINING-PROCESS - Training with the last 284 instances
+2024-06-23 21:13:23,973 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:24,003 INFO     TRAINING-PROCESS - Training with the last 285 instances
+2024-06-23 21:13:24,079 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:24,139 INFO     TRAINING-PROCESS - Training with the last 287 instances
+2024-06-23 21:13:24,206 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:24,297 INFO     TRAINING-PROCESS - Training with the last 288 instances
+2024-06-23 21:13:24,303 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:24,411 INFO     TRAINING-PROCESS - Training with the last 289 instances
+2024-06-23 21:13:24,416 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:24,474 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:24,546 INFO     TRAINING-PROCESS - Training with the last 290 instances
+2024-06-23 21:13:24,593 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:24,645 INFO     TRAINING-PROCESS - Training with the last 292 instances
+2024-06-23 21:13:24,660 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:24,747 INFO     TRAINING-PROCESS - Training with the last 293 instances
+2024-06-23 21:13:24,762 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:24,871 INFO     TRAINING-PROCESS - Training with the last 294 instances
+2024-06-23 21:13:24,936 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:25,021 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:25,091 INFO     TRAINING-PROCESS - Training with the last 296 instances
+2024-06-23 21:13:25,096 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:25,238 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:25,261 INFO     TRAINING-PROCESS - Training with the last 297 instances
+2024-06-23 21:13:25,330 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:25,414 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:25,426 INFO     TRAINING-PROCESS - Training with the last 299 instances
+2024-06-23 21:13:25,505 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:25,595 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:25,601 INFO     TRAINING-PROCESS - Training with the last 301 instances
+2024-06-23 21:13:25,682 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:25,775 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:25,782 INFO     TRAINING-PROCESS - Training with the last 303 instances
+2024-06-23 21:13:25,876 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:25,885 INFO     TRAINING-PROCESS - Training with the last 304 instances
+2024-06-23 21:13:25,983 INFO     TRAINING-PROCESS - Training with the last 305 instances
+2024-06-23 21:13:25,983 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:26,074 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:26,114 INFO     TRAINING-PROCESS - Training with the last 306 instances
+2024-06-23 21:13:26,172 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:26,237 INFO     TRAINING-PROCESS - Training with the last 307 instances
+2024-06-23 21:13:26,289 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:26,337 INFO     TRAINING-PROCESS - Training with the last 308 instances
+2024-06-23 21:13:26,375 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:26,433 INFO     TRAINING-PROCESS - Training with the last 309 instances
+2024-06-23 21:13:26,473 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:26,549 INFO     TRAINING-PROCESS - Training with the last 311 instances
+2024-06-23 21:13:26,565 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:26,649 INFO     TRAINING-PROCESS - Training with the last 312 instances
+2024-06-23 21:13:26,678 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:26,758 INFO     TRAINING-PROCESS - Training with the last 313 instances
+2024-06-23 21:13:26,769 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:26,865 INFO     TRAINING-PROCESS - Training with the last 314 instances
+2024-06-23 21:13:26,877 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:26,999 INFO     TRAINING-PROCESS - Training with the last 315 instances
+2024-06-23 21:13:27,003 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:27,120 INFO     TRAINING-PROCESS - Training with the last 316 instances
+2024-06-23 21:13:27,121 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:27,176 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:27,227 INFO     TRAINING-PROCESS - Training with the last 317 instances
+2024-06-23 21:13:27,273 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:27,364 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:27,368 INFO     TRAINING-PROCESS - Training with the last 319 instances
+2024-06-23 21:13:27,475 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:27,500 INFO     TRAINING-PROCESS - Training with the last 320 instances
+2024-06-23 21:13:27,582 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:27,612 INFO     TRAINING-PROCESS - Training with the last 321 instances
+2024-06-23 21:13:27,687 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:27,713 INFO     TRAINING-PROCESS - Training with the last 322 instances
+2024-06-23 21:13:27,780 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:27,813 INFO     TRAINING-PROCESS - Training with the last 323 instances
+2024-06-23 21:13:27,869 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:27,921 INFO     TRAINING-PROCESS - Training with the last 324 instances
+2024-06-23 21:13:27,974 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:28,062 INFO     TRAINING-PROCESS - Training with the last 326 instances
+2024-06-23 21:13:28,070 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:28,169 INFO     TRAINING-PROCESS - Training with the last 327 instances
+2024-06-23 21:13:28,193 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:28,272 INFO     TRAINING-PROCESS - Training with the last 328 instances
+2024-06-23 21:13:28,288 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:28,373 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:28,411 INFO     TRAINING-PROCESS - Training with the last 329 instances
+2024-06-23 21:13:28,489 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:28,515 INFO     TRAINING-PROCESS - Training with the last 330 instances
+2024-06-23 21:13:28,583 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:28,618 INFO     TRAINING-PROCESS - Training with the last 331 instances
+2024-06-23 21:13:28,671 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:28,755 INFO     TRAINING-PROCESS - Training with the last 333 instances
+2024-06-23 21:13:28,773 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:28,859 INFO     TRAINING-PROCESS - Training with the last 334 instances
+2024-06-23 21:13:28,878 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:28,964 INFO     TRAINING-PROCESS - Training with the last 335 instances
+2024-06-23 21:13:28,981 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:29,072 INFO     TRAINING-PROCESS - Training with the last 336 instances
+2024-06-23 21:13:29,092 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:29,177 INFO     TRAINING-PROCESS - Training with the last 337 instances
+2024-06-23 21:13:29,185 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:29,302 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:29,312 INFO     TRAINING-PROCESS - Training with the last 338 instances
+2024-06-23 21:13:29,418 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:29,428 INFO     TRAINING-PROCESS - Training with the last 339 instances
+2024-06-23 21:13:29,477 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:29,574 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:29,576 INFO     TRAINING-PROCESS - Training with the last 341 instances
+2024-06-23 21:13:29,702 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:29,711 INFO     TRAINING-PROCESS - Training with the last 342 instances
+2024-06-23 21:13:29,770 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:29,814 INFO     TRAINING-PROCESS - Training with the last 343 instances
+2024-06-23 21:13:29,871 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:29,925 INFO     TRAINING-PROCESS - Training with the last 344 instances
+2024-06-23 21:13:29,976 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:30,037 INFO     TRAINING-PROCESS - Training with the last 345 instances
+2024-06-23 21:13:30,073 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:30,179 INFO     TRAINING-PROCESS - Training with the last 347 instances
+2024-06-23 21:13:30,185 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:30,283 INFO     TRAINING-PROCESS - Training with the last 348 instances
+2024-06-23 21:13:30,289 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:30,397 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:30,422 INFO     TRAINING-PROCESS - Training with the last 349 instances
+2024-06-23 21:13:30,473 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:30,529 INFO     TRAINING-PROCESS - Training with the last 350 instances
+2024-06-23 21:13:30,584 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:30,634 INFO     TRAINING-PROCESS - Training with the last 351 instances
+2024-06-23 21:13:30,688 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:30,751 INFO     TRAINING-PROCESS - Training with the last 352 instances
+2024-06-23 21:13:30,794 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:30,881 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:30,892 INFO     TRAINING-PROCESS - Training with the last 354 instances
+2024-06-23 21:13:30,987 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:31,009 INFO     TRAINING-PROCESS - Training with the last 355 instances
+2024-06-23 21:13:31,109 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:31,121 INFO     TRAINING-PROCESS - Training with the last 356 instances
+2024-06-23 21:13:31,179 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:31,230 INFO     TRAINING-PROCESS - Training with the last 357 instances
+2024-06-23 21:13:31,275 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:31,340 INFO     TRAINING-PROCESS - Training with the last 358 instances
+2024-06-23 21:13:31,375 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:31,450 INFO     TRAINING-PROCESS - Training with the last 359 instances
+2024-06-23 21:13:31,504 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:31,572 INFO     TRAINING-PROCESS - Training with the last 361 instances
+2024-06-23 21:13:31,581 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:31,683 INFO     TRAINING-PROCESS - Training with the last 362 instances
+2024-06-23 21:13:31,694 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:31,790 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:31,828 INFO     TRAINING-PROCESS - Training with the last 363 instances
+2024-06-23 21:13:31,878 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:31,964 INFO     TRAINING-PROCESS - Training with the last 365 instances
+2024-06-23 21:13:31,971 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:32,080 INFO     TRAINING-PROCESS - Training with the last 366 instances
+2024-06-23 21:13:32,084 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:32,182 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:32,215 INFO     TRAINING-PROCESS - Training with the last 367 instances
+2024-06-23 21:13:32,281 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:32,330 INFO     TRAINING-PROCESS - Training with the last 368 instances
+2024-06-23 21:13:32,380 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:32,433 INFO     TRAINING-PROCESS - Training with the last 369 instances
+2024-06-23 21:13:32,480 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:32,537 INFO     TRAINING-PROCESS - Training with the last 370 instances
+2024-06-23 21:13:32,589 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:32,645 INFO     TRAINING-PROCESS - Training with the last 371 instances
+2024-06-23 21:13:32,694 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:32,767 INFO     TRAINING-PROCESS - Training with the last 373 instances
+2024-06-23 21:13:32,780 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:32,883 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:32,890 INFO     TRAINING-PROCESS - Training with the last 374 instances
+2024-06-23 21:13:32,996 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:33,029 INFO     TRAINING-PROCESS - Training with the last 375 instances
+2024-06-23 21:13:33,074 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:33,170 INFO     TRAINING-PROCESS - Training with the last 377 instances
+2024-06-23 21:13:33,177 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:33,284 INFO     TRAINING-PROCESS - Training with the last 378 instances
+2024-06-23 21:13:33,290 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:33,393 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:33,405 INFO     TRAINING-PROCESS - Training with the last 379 instances
+2024-06-23 21:13:33,508 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:33,546 INFO     TRAINING-PROCESS - Training with the last 380 instances
+2024-06-23 21:13:33,588 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:33,673 INFO     TRAINING-PROCESS - Training with the last 382 instances
+2024-06-23 21:13:33,697 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:33,788 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:33,799 INFO     TRAINING-PROCESS - Training with the last 383 instances
+2024-06-23 21:13:33,899 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:33,910 INFO     TRAINING-PROCESS - Training with the last 384 instances
+2024-06-23 21:13:33,981 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:34,093 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:34,175 INFO     TRAINING-PROCESS - Training with the last 385 instances
+2024-06-23 21:13:34,185 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:34,297 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:34,303 INFO     TRAINING-PROCESS - Training with the last 388 instances
+2024-06-23 21:13:34,390 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:34,423 INFO     TRAINING-PROCESS - Training with the last 389 instances
+2024-06-23 21:13:34,479 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:34,542 INFO     TRAINING-PROCESS - Training with the last 390 instances
+2024-06-23 21:13:34,578 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:34,686 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:34,700 INFO     TRAINING-PROCESS - Training with the last 392 instances
+2024-06-23 21:13:34,791 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:34,845 INFO     TRAINING-PROCESS - Training with the last 393 instances
+2024-06-23 21:13:34,879 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:34,983 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:34,994 INFO     TRAINING-PROCESS - Training with the last 395 instances
+2024-06-23 21:13:35,098 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:35,109 INFO     TRAINING-PROCESS - Training with the last 396 instances
+2024-06-23 21:13:35,202 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:35,230 INFO     TRAINING-PROCESS - Training with the last 397 instances
+2024-06-23 21:13:35,283 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:35,373 INFO     TRAINING-PROCESS - Training with the last 399 instances
+2024-06-23 21:13:35,376 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:35,499 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:35,504 INFO     TRAINING-PROCESS - Training with the last 400 instances
+2024-06-23 21:13:35,595 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:35,648 INFO     TRAINING-PROCESS - Training with the last 401 instances
+2024-06-23 21:13:35,682 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:35,773 INFO     TRAINING-PROCESS - Training with the last 403 instances
+2024-06-23 21:13:35,789 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:35,891 INFO     TRAINING-PROCESS - Training with the last 404 instances
+2024-06-23 21:13:35,900 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:36,007 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:36,020 INFO     TRAINING-PROCESS - Training with the last 405 instances
+2024-06-23 21:13:36,088 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:36,132 INFO     TRAINING-PROCESS - Training with the last 406 instances
+2024-06-23 21:13:36,189 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:36,274 INFO     TRAINING-PROCESS - Training with the last 408 instances
+2024-06-23 21:13:36,285 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:36,403 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:36,414 INFO     TRAINING-PROCESS - Training with the last 409 instances
+2024-06-23 21:13:36,490 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:36,560 INFO     TRAINING-PROCESS - Training with the last 410 instances
+2024-06-23 21:13:36,599 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:36,679 INFO     TRAINING-PROCESS - Training with the last 412 instances
+2024-06-23 21:13:36,703 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:36,788 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:36,803 INFO     TRAINING-PROCESS - Training with the last 413 instances
+2024-06-23 21:13:36,893 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:36,943 INFO     TRAINING-PROCESS - Training with the last 414 instances
+2024-06-23 21:13:36,984 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:37,058 INFO     TRAINING-PROCESS - Training with the last 415 instances
+2024-06-23 21:13:37,103 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:37,169 INFO     TRAINING-PROCESS - Training with the last 417 instances
+2024-06-23 21:13:37,186 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:37,282 INFO     TRAINING-PROCESS - Training with the last 418 instances
+2024-06-23 21:13:37,294 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:37,401 INFO     TRAINING-PROCESS - Training with the last 419 instances
+2024-06-23 21:13:37,410 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:37,508 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:37,551 INFO     TRAINING-PROCESS - Training with the last 420 instances
+2024-06-23 21:13:37,606 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:37,676 INFO     TRAINING-PROCESS - Training with the last 422 instances
+2024-06-23 21:13:37,685 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:37,790 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:37,797 INFO     TRAINING-PROCESS - Training with the last 423 instances
+2024-06-23 21:13:37,908 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:37,921 INFO     TRAINING-PROCESS - Training with the last 424 instances
+2024-06-23 21:13:37,991 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:38,037 INFO     TRAINING-PROCESS - Training with the last 425 instances
+2024-06-23 21:13:38,083 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:38,188 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:38,198 INFO     TRAINING-PROCESS - Training with the last 427 instances
+2024-06-23 21:13:38,319 INFO     TRAINING-PROCESS - Training with the last 428 instances
+2024-06-23 21:13:38,335 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:38,386 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:38,444 INFO     TRAINING-PROCESS - Training with the last 429 instances
+2024-06-23 21:13:38,495 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:38,562 INFO     TRAINING-PROCESS - Training with the last 430 instances
+2024-06-23 21:13:38,600 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:38,695 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:38,715 INFO     TRAINING-PROCESS - Training with the last 432 instances
+2024-06-23 21:13:38,817 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:38,829 INFO     TRAINING-PROCESS - Training with the last 433 instances
+2024-06-23 21:13:38,885 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:38,954 INFO     TRAINING-PROCESS - Training with the last 434 instances
+2024-06-23 21:13:39,001 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:39,092 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:39,105 INFO     TRAINING-PROCESS - Training with the last 436 instances
+2024-06-23 21:13:39,195 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:39,232 INFO     TRAINING-PROCESS - Training with the last 437 instances
+2024-06-23 21:13:39,294 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:39,381 INFO     TRAINING-PROCESS - Training with the last 439 instances
+2024-06-23 21:13:39,386 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:39,510 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:39,525 INFO     TRAINING-PROCESS - Training with the last 440 instances
+2024-06-23 21:13:39,608 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:39,650 INFO     TRAINING-PROCESS - Training with the last 441 instances
+2024-06-23 21:13:39,686 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:39,776 INFO     TRAINING-PROCESS - Training with the last 443 instances
+2024-06-23 21:13:39,793 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:39,912 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:39,925 INFO     TRAINING-PROCESS - Training with the last 444 instances
+2024-06-23 21:13:39,996 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:40,053 INFO     TRAINING-PROCESS - Training with the last 445 instances
+2024-06-23 21:13:40,089 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:40,182 INFO     TRAINING-PROCESS - Training with the last 447 instances
+2024-06-23 21:13:40,191 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:40,315 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:40,329 INFO     TRAINING-PROCESS - Training with the last 448 instances
+2024-06-23 21:13:40,392 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:40,456 INFO     TRAINING-PROCESS - Training with the last 449 instances
+2024-06-23 21:13:40,494 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:40,577 INFO     TRAINING-PROCESS - Training with the last 451 instances
+2024-06-23 21:13:40,591 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:40,702 INFO     TRAINING-PROCESS - Training with the last 452 instances
+2024-06-23 21:13:40,709 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:40,801 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:40,847 INFO     TRAINING-PROCESS - Training with the last 453 instances
+2024-06-23 21:13:40,890 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:40,989 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:40,991 INFO     TRAINING-PROCESS - Training with the last 455 instances
+2024-06-23 21:13:41,095 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:41,124 INFO     TRAINING-PROCESS - Training with the last 456 instances
+2024-06-23 21:13:41,189 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:41,249 INFO     TRAINING-PROCESS - Training with the last 457 instances
+2024-06-23 21:13:41,301 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:41,381 INFO     TRAINING-PROCESS - Training with the last 459 instances
+2024-06-23 21:13:41,394 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:41,515 INFO     TRAINING-PROCESS - Training with the last 460 instances
+2024-06-23 21:13:41,518 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:41,593 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:41,660 INFO     TRAINING-PROCESS - Training with the last 461 instances
+2024-06-23 21:13:41,693 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:41,790 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:41,804 INFO     TRAINING-PROCESS - Training with the last 463 instances
+2024-06-23 21:13:41,913 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:41,926 INFO     TRAINING-PROCESS - Training with the last 464 instances
+2024-06-23 21:13:42,001 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:42,050 INFO     TRAINING-PROCESS - Training with the last 465 instances
+2024-06-23 21:13:42,089 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:42,168 INFO     TRAINING-PROCESS - Training with the last 466 instances
+2024-06-23 21:13:42,207 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:42,304 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:42,305 INFO     TRAINING-PROCESS - Training with the last 468 instances
+2024-06-23 21:13:42,414 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:42,430 INFO     TRAINING-PROCESS - Training with the last 469 instances
+2024-06-23 21:13:42,505 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:42,564 INFO     TRAINING-PROCESS - Training with the last 470 instances
+2024-06-23 21:13:42,593 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:42,684 INFO     TRAINING-PROCESS - Training with the last 472 instances
+2024-06-23 21:13:42,692 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:42,796 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:42,830 INFO     TRAINING-PROCESS - Training with the last 473 instances
+2024-06-23 21:13:42,893 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:42,956 INFO     TRAINING-PROCESS - Training with the last 474 instances
+2024-06-23 21:13:43,004 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:43,091 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:43,105 INFO     TRAINING-PROCESS - Training with the last 476 instances
+2024-06-23 21:13:43,217 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:43,235 INFO     TRAINING-PROCESS - Training with the last 477 instances
+2024-06-23 21:13:43,300 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:43,359 INFO     TRAINING-PROCESS - Training with the last 478 instances
+2024-06-23 21:13:43,398 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:43,491 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:43,505 INFO     TRAINING-PROCESS - Training with the last 480 instances
+2024-06-23 21:13:43,620 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:43,634 INFO     TRAINING-PROCESS - Training with the last 481 instances
+2024-06-23 21:13:43,690 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:43,770 INFO     TRAINING-PROCESS - Training with the last 482 instances
+2024-06-23 21:13:43,817 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:43,907 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:43,921 INFO     TRAINING-PROCESS - Training with the last 484 instances
+2024-06-23 21:13:43,999 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:44,069 INFO     TRAINING-PROCESS - Training with the last 485 instances
+2024-06-23 21:13:44,103 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:44,206 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:44,213 INFO     TRAINING-PROCESS - Training with the last 487 instances
+2024-06-23 21:13:44,301 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:44,355 INFO     TRAINING-PROCESS - Training with the last 488 instances
+2024-06-23 21:13:44,393 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:44,492 INFO     TRAINING-PROCESS - Training with the last 490 instances
+2024-06-23 21:13:44,511 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:44,614 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:44,630 INFO     TRAINING-PROCESS - Training with the last 491 instances
+2024-06-23 21:13:44,702 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:44,783 INFO     TRAINING-PROCESS - Training with the last 493 instances
+2024-06-23 21:13:44,791 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:44,907 INFO     TRAINING-PROCESS - Training with the last 494 instances
+2024-06-23 21:13:44,922 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:45,006 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:45,058 INFO     TRAINING-PROCESS - Training with the last 495 instances
+2024-06-23 21:13:45,096 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:45,190 INFO     TRAINING-PROCESS - Training with the last 497 instances
+2024-06-23 21:13:45,198 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:45,661 INFO     PREDICTING-PROCESS: 4 instances predicted.
+2024-06-23 21:13:45,742 INFO     TRAINING-PROCESS - Training with the last 502 instances
+2024-06-23 21:13:45,764 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:45,817 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:45,892 INFO     TRAINING-PROCESS - Training with the last 504 instances
+2024-06-23 21:13:45,896 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:46,008 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:46,016 INFO     TRAINING-PROCESS - Training with the last 505 instances
+2024-06-23 21:13:46,104 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:46,152 INFO     TRAINING-PROCESS - Training with the last 506 instances
+2024-06-23 21:13:46,198 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:46,294 INFO     TRAINING-PROCESS - Training with the last 508 instances
+2024-06-23 21:13:46,301 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:46,416 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:46,431 INFO     TRAINING-PROCESS - Training with the last 509 instances
+2024-06-23 21:13:46,530 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:46,587 INFO     TRAINING-PROCESS - Training with the last 511 instances
+2024-06-23 21:13:46,595 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:46,722 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:46,739 INFO     TRAINING-PROCESS - Training with the last 512 instances
+2024-06-23 21:13:46,816 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:46,869 INFO     TRAINING-PROCESS - Training with the last 513 instances
+2024-06-23 21:13:46,916 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:47,007 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:47,021 INFO     TRAINING-PROCESS - Training with the last 515 instances
+2024-06-23 21:13:47,104 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:47,158 INFO     TRAINING-PROCESS - Training with the last 516 instances
+2024-06-23 21:13:47,198 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:47,298 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:47,305 INFO     TRAINING-PROCESS - Training with the last 518 instances
+2024-06-23 21:13:47,424 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:47,439 INFO     TRAINING-PROCESS - Training with the last 519 instances
+2024-06-23 21:13:47,517 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:47,574 INFO     TRAINING-PROCESS - Training with the last 520 instances
+2024-06-23 21:13:47,613 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:47,706 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:47,707 INFO     TRAINING-PROCESS - Training with the last 522 instances
+2024-06-23 21:13:47,822 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:47,838 INFO     TRAINING-PROCESS - Training with the last 523 instances
+2024-06-23 21:13:47,914 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:47,971 INFO     TRAINING-PROCESS - Training with the last 524 instances
+2024-06-23 21:13:48,009 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:48,116 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:48,121 INFO     TRAINING-PROCESS - Training with the last 526 instances
+2024-06-23 21:13:48,206 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:48,279 INFO     TRAINING-PROCESS - Training with the last 527 instances
+2024-06-23 21:13:48,356 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:48,440 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:48,523 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:48,538 INFO     TRAINING-PROCESS - Training with the last 530 instances
+2024-06-23 21:13:48,650 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:48,718 INFO     TRAINING-PROCESS - Training with the last 532 instances
+2024-06-23 21:13:48,723 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:48,834 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:48,852 INFO     TRAINING-PROCESS - Training with the last 533 instances
+2024-06-23 21:13:48,944 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:49,001 INFO     TRAINING-PROCESS - Training with the last 535 instances
+2024-06-23 21:13:49,089 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:49,182 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:49,190 INFO     TRAINING-PROCESS - Training with the last 536 instances
+2024-06-23 21:13:49,246 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:49,315 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:49,369 INFO     TRAINING-PROCESS - Training with the last 538 instances
+2024-06-23 21:13:49,419 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:49,508 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:49,514 INFO     TRAINING-PROCESS - Training with the last 540 instances
+2024-06-23 21:13:49,606 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:49,649 INFO     TRAINING-PROCESS - Training with the last 541 instances
+2024-06-23 21:13:49,701 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:49,781 INFO     TRAINING-PROCESS - Training with the last 542 instances
+2024-06-23 21:13:49,815 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:49,922 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:49,933 INFO     TRAINING-PROCESS - Training with the last 544 instances
+2024-06-23 21:13:50,014 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:50,085 INFO     TRAINING-PROCESS - Training with the last 545 instances
+2024-06-23 21:13:50,121 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:50,211 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:50,226 INFO     TRAINING-PROCESS - Training with the last 547 instances
+2024-06-23 21:13:50,304 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:50,354 INFO     TRAINING-PROCESS - Training with the last 548 instances
+2024-06-23 21:13:50,404 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:50,580 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:50,594 INFO     TRAINING-PROCESS - Training with the last 550 instances
+2024-06-23 21:13:50,639 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:50,731 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:50,735 INFO     TRAINING-PROCESS - Training with the last 552 instances
+2024-06-23 21:13:50,805 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:50,886 INFO     TRAINING-PROCESS - Training with the last 553 instances
+2024-06-23 21:13:50,928 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:51,016 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:51,019 INFO     TRAINING-PROCESS - Training with the last 555 instances
+2024-06-23 21:13:51,117 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:51,163 INFO     TRAINING-PROCESS - Training with the last 556 instances
+2024-06-23 21:13:51,202 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:51,293 INFO     TRAINING-PROCESS - Training with the last 558 instances
+2024-06-23 21:13:51,301 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:51,428 INFO     TRAINING-PROCESS - Training with the last 559 instances
+2024-06-23 21:13:51,430 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:51,529 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:51,569 INFO     TRAINING-PROCESS - Training with the last 560 instances
+2024-06-23 21:13:51,604 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:51,706 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:51,711 INFO     TRAINING-PROCESS - Training with the last 562 instances
+2024-06-23 21:13:51,825 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:51,840 INFO     TRAINING-PROCESS - Training with the last 563 instances
+2024-06-23 21:13:51,901 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:51,988 INFO     TRAINING-PROCESS - Training with the last 564 instances
+2024-06-23 21:13:52,019 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:52,118 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:52,119 INFO     TRAINING-PROCESS - Training with the last 566 instances
+2024-06-23 21:13:52,233 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:52,250 INFO     TRAINING-PROCESS - Training with the last 567 instances
+2024-06-23 21:13:52,309 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:52,389 INFO     TRAINING-PROCESS - Training with the last 568 instances
+2024-06-23 21:13:52,417 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:52,507 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:52,526 INFO     TRAINING-PROCESS - Training with the last 570 instances
+2024-06-23 21:13:52,623 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:52,676 INFO     TRAINING-PROCESS - Training with the last 571 instances
+2024-06-23 21:13:52,702 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:52,801 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:52,810 INFO     TRAINING-PROCESS - Training with the last 573 instances
+2024-06-23 21:13:52,918 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:52,961 INFO     TRAINING-PROCESS - Training with the last 574 instances
+2024-06-23 21:13:53,005 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:53,088 INFO     TRAINING-PROCESS - Training with the last 575 instances
+2024-06-23 21:13:53,115 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:53,212 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:53,229 INFO     TRAINING-PROCESS - Training with the last 577 instances
+2024-06-23 21:13:53,308 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:53,370 INFO     TRAINING-PROCESS - Training with the last 578 instances
+2024-06-23 21:13:53,410 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:53,508 INFO     TRAINING-PROCESS - Training with the last 580 instances
+2024-06-23 21:13:53,513 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:53,629 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:53,646 INFO     TRAINING-PROCESS - Training with the last 581 instances
+2024-06-23 21:13:53,757 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:53,775 INFO     TRAINING-PROCESS - Training with the last 582 instances
+2024-06-23 21:13:53,809 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:53,914 INFO     TRAINING-PROCESS - Training with the last 584 instances
+2024-06-23 21:13:53,916 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:54,025 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:54,042 INFO     TRAINING-PROCESS - Training with the last 585 instances
+2024-06-23 21:13:54,159 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:54,176 INFO     TRAINING-PROCESS - Training with the last 586 instances
+2024-06-23 21:13:54,220 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:54,308 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:54,310 INFO     TRAINING-PROCESS - Training with the last 588 instances
+2024-06-23 21:13:54,449 INFO     TRAINING-PROCESS - Training with the last 589 instances
+2024-06-23 21:13:54,456 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:54,539 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:54,587 INFO     TRAINING-PROCESS - Training with the last 590 instances
+2024-06-23 21:13:54,622 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:54,719 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:54,735 INFO     TRAINING-PROCESS - Training with the last 592 instances
+2024-06-23 21:13:54,846 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:54,864 INFO     TRAINING-PROCESS - Training with the last 593 instances
+2024-06-23 21:13:54,913 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:55,000 INFO     TRAINING-PROCESS - Training with the last 595 instances
+2024-06-23 21:13:55,029 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:55,134 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:55,151 INFO     TRAINING-PROCESS - Training with the last 596 instances
+2024-06-23 21:13:55,218 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:55,285 INFO     TRAINING-PROCESS - Training with the last 597 instances
+2024-06-23 21:13:55,326 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:55,411 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:55,429 INFO     TRAINING-PROCESS - Training with the last 599 instances
+2024-06-23 21:13:55,554 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:55,574 INFO     TRAINING-PROCESS - Training with the last 600 instances
+2024-06-23 21:13:55,609 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:55,695 INFO     TRAINING-PROCESS - Training with the last 601 instances
+2024-06-23 21:13:55,728 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:55,822 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:55,839 INFO     TRAINING-PROCESS - Training with the last 603 instances
+2024-06-23 21:13:55,920 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:55,981 INFO     TRAINING-PROCESS - Training with the last 604 instances
+2024-06-23 21:13:56,012 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:56,122 INFO     TRAINING-PROCESS - Training with the last 606 instances
+2024-06-23 21:13:56,124 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:56,254 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:56,272 INFO     TRAINING-PROCESS - Training with the last 607 instances
+2024-06-23 21:13:56,309 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:56,417 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:56,422 INFO     TRAINING-PROCESS - Training with the last 609 instances
+2024-06-23 21:13:56,526 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:56,577 INFO     TRAINING-PROCESS - Training with the last 610 instances
+2024-06-23 21:13:56,610 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:56,715 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:56,718 INFO     TRAINING-PROCESS - Training with the last 612 instances
+2024-06-23 21:13:56,819 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:56,863 INFO     TRAINING-PROCESS - Training with the last 613 instances
+2024-06-23 21:13:56,922 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:57,010 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:57,016 INFO     TRAINING-PROCESS - Training with the last 615 instances
+2024-06-23 21:13:57,120 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:57,169 INFO     TRAINING-PROCESS - Training with the last 616 instances
+2024-06-23 21:13:57,213 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:57,312 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:57,313 INFO     TRAINING-PROCESS - Training with the last 618 instances
+2024-06-23 21:13:57,451 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:57,469 INFO     TRAINING-PROCESS - Training with the last 619 instances
+2024-06-23 21:13:57,515 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:57,616 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:57,621 INFO     TRAINING-PROCESS - Training with the last 621 instances
+2024-06-23 21:13:57,755 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:57,775 INFO     TRAINING-PROCESS - Training with the last 622 instances
+2024-06-23 21:13:57,820 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:57,929 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:57,930 INFO     TRAINING-PROCESS - Training with the last 624 instances
+2024-06-23 21:13:58,063 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:58,082 INFO     TRAINING-PROCESS - Training with the last 625 instances
+2024-06-23 21:13:58,126 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:58,221 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:58,228 INFO     TRAINING-PROCESS - Training with the last 627 instances
+2024-06-23 21:13:58,337 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:58,380 INFO     TRAINING-PROCESS - Training with the last 628 instances
+2024-06-23 21:13:58,447 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:58,525 INFO     TRAINING-PROCESS - Training with the last 630 instances
+2024-06-23 21:13:58,554 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:58,635 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:58,687 INFO     TRAINING-PROCESS - Training with the last 631 instances
+2024-06-23 21:13:58,725 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:58,828 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:58,832 INFO     TRAINING-PROCESS - Training with the last 633 instances
+2024-06-23 21:13:58,939 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:58,984 INFO     TRAINING-PROCESS - Training with the last 634 instances
+2024-06-23 21:13:59,027 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:59,122 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:59,140 INFO     TRAINING-PROCESS - Training with the last 636 instances
+2024-06-23 21:13:59,233 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:59,345 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:59,416 INFO     TRAINING-PROCESS - Training with the last 637 instances
+2024-06-23 21:13:59,427 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:59,529 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:59,581 INFO     TRAINING-PROCESS - Training with the last 640 instances
+2024-06-23 21:13:59,621 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:59,724 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:59,743 INFO     TRAINING-PROCESS - Training with the last 642 instances
+2024-06-23 21:13:59,851 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:13:59,907 INFO     TRAINING-PROCESS - Training with the last 643 instances
+2024-06-23 21:13:59,935 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:00,044 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:00,066 INFO     TRAINING-PROCESS - Training with the last 645 instances
+2024-06-23 21:14:00,128 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:00,215 INFO     TRAINING-PROCESS - Training with the last 646 instances
+2024-06-23 21:14:00,233 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:00,335 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:00,355 INFO     TRAINING-PROCESS - Training with the last 648 instances
+2024-06-23 21:14:00,429 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:00,500 INFO     TRAINING-PROCESS - Training with the last 649 instances
+2024-06-23 21:14:00,558 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:00,635 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:00,652 INFO     TRAINING-PROCESS - Training with the last 651 instances
+2024-06-23 21:14:00,741 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:00,806 INFO     TRAINING-PROCESS - Training with the last 652 instances
+2024-06-23 21:14:00,846 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:00,950 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:00,968 INFO     TRAINING-PROCESS - Training with the last 654 instances
+2024-06-23 21:14:01,021 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:01,120 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:01,206 INFO     TRAINING-PROCESS - Training with the last 656 instances
+2024-06-23 21:14:01,233 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:01,345 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:01,365 INFO     TRAINING-PROCESS - Training with the last 658 instances
+2024-06-23 21:14:01,429 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:01,522 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:01,530 INFO     TRAINING-PROCESS - Training with the last 660 instances
+2024-06-23 21:14:01,638 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:01,679 INFO     TRAINING-PROCESS - Training with the last 661 instances
+2024-06-23 21:14:01,728 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:01,815 INFO     TRAINING-PROCESS - Training with the last 662 instances
+2024-06-23 21:14:01,851 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:01,956 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:01,974 INFO     TRAINING-PROCESS - Training with the last 664 instances
+2024-06-23 21:14:02,023 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:02,126 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:02,136 INFO     TRAINING-PROCESS - Training with the last 666 instances
+2024-06-23 21:14:02,270 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:02,291 INFO     TRAINING-PROCESS - Training with the last 667 instances
+2024-06-23 21:14:02,325 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:02,445 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:02,463 INFO     TRAINING-PROCESS - Training with the last 669 instances
+2024-06-23 21:14:02,547 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:02,629 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:02,631 INFO     TRAINING-PROCESS - Training with the last 671 instances
+2024-06-23 21:14:02,735 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:02,783 INFO     TRAINING-PROCESS - Training with the last 672 instances
+2024-06-23 21:14:02,828 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:02,931 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:02,949 INFO     TRAINING-PROCESS - Training with the last 674 instances
+2024-06-23 21:14:03,047 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:03,102 INFO     TRAINING-PROCESS - Training with the last 675 instances
+2024-06-23 21:14:03,129 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:03,242 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:03,262 INFO     TRAINING-PROCESS - Training with the last 677 instances
+2024-06-23 21:14:03,363 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:03,426 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:03,500 INFO     TRAINING-PROCESS - Training with the last 679 instances
+2024-06-23 21:14:03,529 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:03,649 INFO     TRAINING-PROCESS - Training with the last 681 instances
+2024-06-23 21:14:03,665 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:03,739 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:03,807 INFO     TRAINING-PROCESS - Training with the last 682 instances
+2024-06-23 21:14:03,834 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:03,945 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:03,965 INFO     TRAINING-PROCESS - Training with the last 684 instances
+2024-06-23 21:14:04,044 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:04,112 INFO     TRAINING-PROCESS - Training with the last 685 instances
+2024-06-23 21:14:04,150 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:04,248 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:04,268 INFO     TRAINING-PROCESS - Training with the last 687 instances
+2024-06-23 21:14:04,330 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:04,423 INFO     TRAINING-PROCESS - Training with the last 688 instances
+2024-06-23 21:14:04,453 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:04,552 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:04,573 INFO     TRAINING-PROCESS - Training with the last 690 instances
+2024-06-23 21:14:04,628 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:04,728 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:04,730 INFO     TRAINING-PROCESS - Training with the last 692 instances
+2024-06-23 21:14:04,836 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:04,886 INFO     TRAINING-PROCESS - Training with the last 693 instances
+2024-06-23 21:14:04,931 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:05,048 INFO     TRAINING-PROCESS - Training with the last 695 instances
+2024-06-23 21:14:05,056 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:05,144 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:05,209 INFO     TRAINING-PROCESS - Training with the last 696 instances
+2024-06-23 21:14:05,234 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:05,331 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:05,352 INFO     TRAINING-PROCESS - Training with the last 698 instances
+2024-06-23 21:14:05,441 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:05,517 INFO     TRAINING-PROCESS - Training with the last 699 instances
+2024-06-23 21:14:05,547 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:05,666 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:05,669 INFO     TRAINING-PROCESS - Training with the last 701 instances
+2024-06-23 21:14:05,739 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:05,813 INFO     TRAINING-PROCESS - Training with the last 702 instances
+2024-06-23 21:14:05,842 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:05,968 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:05,978 INFO     TRAINING-PROCESS - Training with the last 704 instances
+2024-06-23 21:14:06,049 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:06,120 INFO     TRAINING-PROCESS - Training with the last 705 instances
+2024-06-23 21:14:06,151 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:06,257 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:06,275 INFO     TRAINING-PROCESS - Training with the last 707 instances
+2024-06-23 21:14:06,335 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:06,424 INFO     TRAINING-PROCESS - Training with the last 708 instances
+2024-06-23 21:14:06,458 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:06,561 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:06,582 INFO     TRAINING-PROCESS - Training with the last 710 instances
+2024-06-23 21:14:06,631 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:06,740 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:06,743 INFO     TRAINING-PROCESS - Training with the last 712 instances
+2024-06-23 21:14:06,874 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:06,895 INFO     TRAINING-PROCESS - Training with the last 713 instances
+2024-06-23 21:14:06,932 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:07,034 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:07,048 INFO     TRAINING-PROCESS - Training with the last 715 instances
+2024-06-23 21:14:07,155 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:07,222 INFO     TRAINING-PROCESS - Training with the last 716 instances
+2024-06-23 21:14:07,261 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:07,365 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:07,386 INFO     TRAINING-PROCESS - Training with the last 718 instances
+2024-06-23 21:14:07,438 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:07,545 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:07,550 INFO     TRAINING-PROCESS - Training with the last 720 instances
+2024-06-23 21:14:07,682 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:07,702 INFO     TRAINING-PROCESS - Training with the last 721 instances
+2024-06-23 21:14:07,733 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:07,852 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:07,865 INFO     TRAINING-PROCESS - Training with the last 723 instances
+2024-06-23 21:14:07,947 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:08,021 INFO     TRAINING-PROCESS - Training with the last 724 instances
+2024-06-23 21:14:08,059 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:08,163 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:08,182 INFO     TRAINING-PROCESS - Training with the last 726 instances
+2024-06-23 21:14:08,235 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:08,341 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:08,348 INFO     TRAINING-PROCESS - Training with the last 728 instances
+2024-06-23 21:14:08,442 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:08,507 INFO     TRAINING-PROCESS - Training with the last 729 instances
+2024-06-23 21:14:08,553 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:08,650 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:08,670 INFO     TRAINING-PROCESS - Training with the last 731 instances
+2024-06-23 21:14:08,745 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:08,829 INFO     TRAINING-PROCESS - Training with the last 732 instances
+2024-06-23 21:14:08,860 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:08,946 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:08,996 INFO     TRAINING-PROCESS - Training with the last 734 instances
+2024-06-23 21:14:09,045 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:09,138 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:09,232 INFO     TRAINING-PROCESS - Training with the last 736 instances
+2024-06-23 21:14:09,259 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:09,348 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:09,403 INFO     TRAINING-PROCESS - Training with the last 738 instances
+2024-06-23 21:14:09,440 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:09,560 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:09,581 INFO     TRAINING-PROCESS - Training with the last 740 instances
+2024-06-23 21:14:09,642 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:09,741 INFO     TRAINING-PROCESS - Training with the last 742 instances
+2024-06-23 21:14:09,756 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:09,985 INFO     TRAINING-PROCESS - Training with the last 743 instances
+2024-06-23 21:14:10,057 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:10,124 INFO     PREDICTING-PROCESS: 2 instances predicted.
+2024-06-23 21:14:10,146 INFO     TRAINING-PROCESS - Training with the last 745 instances
+2024-06-23 21:14:10,182 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:10,258 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:10,319 INFO     TRAINING-PROCESS - Training with the last 747 instances
+2024-06-23 21:14:10,355 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:10,493 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:10,516 INFO     TRAINING-PROCESS - Training with the last 749 instances
+2024-06-23 21:14:10,570 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:10,657 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:10,677 INFO     TRAINING-PROCESS - Training with the last 751 instances
+2024-06-23 21:14:10,761 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:10,842 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:10,921 INFO     TRAINING-PROCESS - Training with the last 753 instances
+2024-06-23 21:14:10,950 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:11,072 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:11,095 INFO     TRAINING-PROCESS - Training with the last 755 instances
+2024-06-23 21:14:11,143 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:11,267 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:11,289 INFO     TRAINING-PROCESS - Training with the last 757 instances
+2024-06-23 21:14:11,356 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:11,446 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:11,533 INFO     TRAINING-PROCESS - Training with the last 759 instances
+2024-06-23 21:14:11,572 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:11,649 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:11,759 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:11,780 INFO     TRAINING-PROCESS - Training with the last 762 instances
+2024-06-23 21:14:11,888 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:11,946 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:12,026 INFO     TRAINING-PROCESS - Training with the last 764 instances
+2024-06-23 21:14:12,057 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:12,181 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:12,203 INFO     TRAINING-PROCESS - Training with the last 766 instances
+2024-06-23 21:14:12,247 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:12,361 INFO     TRAINING-PROCESS - Training with the last 768 instances
+2024-06-23 21:14:12,395 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:12,475 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:12,541 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:12,610 INFO     TRAINING-PROCESS - Training with the last 770 instances
+2024-06-23 21:14:12,654 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:12,753 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:12,773 INFO     TRAINING-PROCESS - Training with the last 772 instances
+2024-06-23 21:14:12,860 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:12,943 INFO     TRAINING-PROCESS - Training with the last 773 instances
+2024-06-23 21:14:12,971 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:13,087 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:13,107 INFO     TRAINING-PROCESS - Training with the last 775 instances
+2024-06-23 21:14:13,156 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:13,261 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:13,266 INFO     TRAINING-PROCESS - Training with the last 777 instances
+2024-06-23 21:14:13,364 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:13,441 INFO     TRAINING-PROCESS - Training with the last 778 instances
+2024-06-23 21:14:13,473 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:13,588 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:13,612 INFO     TRAINING-PROCESS - Training with the last 780 instances
+2024-06-23 21:14:13,647 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:13,749 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:13,769 INFO     TRAINING-PROCESS - Training with the last 782 instances
+2024-06-23 21:14:13,916 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:13,940 INFO     TRAINING-PROCESS - Training with the last 783 instances
+2024-06-23 21:14:13,980 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:14,057 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:14,161 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:14,182 INFO     TRAINING-PROCESS - Training with the last 786 instances
+2024-06-23 21:14:14,272 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:14,349 INFO     TRAINING-PROCESS - Training with the last 787 instances
+2024-06-23 21:14:14,379 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:14,466 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:14,625 INFO     TRAINING-PROCESS - Training with the last 789 instances
+2024-06-23 21:14:14,650 INFO     PREDICTING-PROCESS: 2 instances predicted.
+2024-06-23 21:14:14,767 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:14,788 INFO     TRAINING-PROCESS - Training with the last 792 instances
+2024-06-23 21:14:14,863 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:14,948 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:15,033 INFO     TRAINING-PROCESS - Training with the last 794 instances
+2024-06-23 21:14:15,065 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:15,162 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:15,264 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:15,289 INFO     TRAINING-PROCESS - Training with the last 797 instances
+2024-06-23 21:14:15,378 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:15,447 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:15,531 INFO     TRAINING-PROCESS - Training with the last 799 instances
+2024-06-23 21:14:15,582 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:15,684 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:15,707 INFO     TRAINING-PROCESS - Training with the last 801 instances
+2024-06-23 21:14:15,751 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:15,863 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:15,887 INFO     TRAINING-PROCESS - Training with the last 803 instances
+2024-06-23 21:14:15,969 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:16,045 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:16,141 INFO     TRAINING-PROCESS - Training with the last 805 instances
+2024-06-23 21:14:16,162 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:16,255 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:16,315 INFO     TRAINING-PROCESS - Training with the last 807 instances
+2024-06-23 21:14:16,356 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:16,471 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:16,493 INFO     TRAINING-PROCESS - Training with the last 809 instances
+2024-06-23 21:14:16,631 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:16,655 INFO     TRAINING-PROCESS - Training with the last 810 instances
+2024-06-23 21:14:16,686 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:16,760 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:16,831 INFO     TRAINING-PROCESS - Training with the last 812 instances
+2024-06-23 21:14:16,865 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:16,995 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:17,010 INFO     TRAINING-PROCESS - Training with the last 814 instances
+2024-06-23 21:14:17,051 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:17,154 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:17,167 INFO     TRAINING-PROCESS - Training with the last 816 instances
+2024-06-23 21:14:17,314 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:17,364 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:17,367 INFO     TRAINING-PROCESS - Training with the last 817 instances
+2024-06-23 21:14:17,459 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:17,547 INFO     TRAINING-PROCESS - Training with the last 819 instances
+2024-06-23 21:14:17,573 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:17,688 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:17,712 INFO     TRAINING-PROCESS - Training with the last 821 instances
+2024-06-23 21:14:17,754 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:17,864 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:17,881 INFO     TRAINING-PROCESS - Training with the last 823 instances
+2024-06-23 21:14:17,959 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:18,044 INFO     TRAINING-PROCESS - Training with the last 824 instances
+2024-06-23 21:14:18,076 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:18,192 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:18,214 INFO     TRAINING-PROCESS - Training with the last 826 instances
+2024-06-23 21:14:18,252 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:18,376 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:18,401 INFO     TRAINING-PROCESS - Training with the last 828 instances
+2024-06-23 21:14:18,453 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:18,568 INFO     TRAINING-PROCESS - Training with the last 830 instances
+2024-06-23 21:14:18,584 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:18,669 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:18,751 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:18,820 INFO     TRAINING-PROCESS - Training with the last 832 instances
+2024-06-23 21:14:18,868 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:18,979 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:19,002 INFO     TRAINING-PROCESS - Training with the last 834 instances
+2024-06-23 21:14:19,059 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:19,151 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:19,244 INFO     TRAINING-PROCESS - Training with the last 836 instances
+2024-06-23 21:14:19,269 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:19,389 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:19,412 INFO     TRAINING-PROCESS - Training with the last 838 instances
+2024-06-23 21:14:19,456 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:19,563 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:19,587 INFO     TRAINING-PROCESS - Training with the last 840 instances
+2024-06-23 21:14:19,672 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:19,762 INFO     TRAINING-PROCESS - Training with the last 841 instances
+2024-06-23 21:14:19,794 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:19,885 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:19,951 INFO     TRAINING-PROCESS - Training with the last 843 instances
+2024-06-23 21:14:19,978 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:20,084 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:20,175 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:20,198 INFO     TRAINING-PROCESS - Training with the last 846 instances
+2024-06-23 21:14:20,547 INFO     PREDICTING-PROCESS: 3 instances predicted.
+2024-06-23 21:14:20,612 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:20,681 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:20,766 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:20,805 INFO     TRAINING-PROCESS - Training with the last 851 instances
+2024-06-23 21:14:20,865 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:20,957 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:20,986 INFO     TRAINING-PROCESS - Training with the last 854 instances
+2024-06-23 21:14:21,087 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:21,155 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:21,177 INFO     TRAINING-PROCESS - Training with the last 856 instances
+2024-06-23 21:14:21,271 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:21,359 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:21,430 INFO     TRAINING-PROCESS - Training with the last 858 instances
+2024-06-23 21:14:21,462 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:21,591 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:21,625 INFO     TRAINING-PROCESS - Training with the last 860 instances
+2024-06-23 21:14:21,660 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:21,758 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:21,859 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:21,884 INFO     TRAINING-PROCESS - Training with the last 863 instances
+2024-06-23 21:14:21,974 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:22,055 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:22,140 INFO     TRAINING-PROCESS - Training with the last 865 instances
+2024-06-23 21:14:22,166 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:22,290 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:22,313 INFO     TRAINING-PROCESS - Training with the last 867 instances
+2024-06-23 21:14:22,368 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:22,462 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:22,563 INFO     TRAINING-PROCESS - Training with the last 869 instances
+2024-06-23 21:14:22,590 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:22,667 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:22,743 INFO     TRAINING-PROCESS - Training with the last 871 instances
+2024-06-23 21:14:22,766 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:22,866 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:22,923 INFO     TRAINING-PROCESS - Training with the last 873 instances
+2024-06-23 21:14:22,961 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:23,065 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:23,157 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:23,174 INFO     TRAINING-PROCESS - Training with the last 876 instances
+2024-06-23 21:14:23,284 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:23,350 INFO     TRAINING-PROCESS - Training with the last 877 instances
+2024-06-23 21:14:23,375 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:23,466 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:23,535 INFO     TRAINING-PROCESS - Training with the last 879 instances
+2024-06-23 21:14:23,564 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:23,681 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:23,705 INFO     TRAINING-PROCESS - Training with the last 881 instances
+2024-06-23 21:14:23,763 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:23,866 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:23,956 INFO     TRAINING-PROCESS - Training with the last 883 instances
+2024-06-23 21:14:23,984 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:24,110 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:24,135 INFO     TRAINING-PROCESS - Training with the last 885 instances
+2024-06-23 21:14:24,161 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:24,267 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:24,365 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:24,390 INFO     TRAINING-PROCESS - Training with the last 888 instances
+2024-06-23 21:14:24,481 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:24,568 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:24,587 INFO     TRAINING-PROCESS - Training with the last 890 instances
+2024-06-23 21:14:24,674 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:24,771 INFO     TRAINING-PROCESS - Training with the last 891 instances
+2024-06-23 21:14:24,791 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:24,872 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:24,959 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:25,023 INFO     TRAINING-PROCESS - Training with the last 894 instances
+2024-06-23 21:14:25,067 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:25,182 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:25,207 INFO     TRAINING-PROCESS - Training with the last 896 instances
+2024-06-23 21:14:25,267 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:25,360 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:25,455 INFO     TRAINING-PROCESS - Training with the last 898 instances
+2024-06-23 21:14:25,482 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:25,574 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:25,643 INFO     TRAINING-PROCESS - Training with the last 900 instances
+2024-06-23 21:14:25,669 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:25,789 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:25,812 INFO     TRAINING-PROCESS - Training with the last 902 instances
+2024-06-23 21:14:25,907 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:25,968 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:26,074 INFO     TRAINING-PROCESS - Training with the last 904 instances
+2024-06-23 21:14:26,094 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:26,172 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:26,249 INFO     TRAINING-PROCESS - Training with the last 906 instances
+2024-06-23 21:14:26,278 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:26,410 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:26,436 INFO     TRAINING-PROCESS - Training with the last 908 instances
+2024-06-23 21:14:26,465 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:26,581 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:26,610 INFO     TRAINING-PROCESS - Training with the last 910 instances
+2024-06-23 21:14:26,670 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:26,765 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:26,783 INFO     TRAINING-PROCESS - Training with the last 912 instances
+2024-06-23 21:14:26,891 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:26,973 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:26,986 INFO     TRAINING-PROCESS - Training with the last 914 instances
+2024-06-23 21:14:27,076 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:27,164 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:27,237 INFO     TRAINING-PROCESS - Training with the last 916 instances
+2024-06-23 21:14:27,269 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:27,388 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:27,466 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:27,490 INFO     TRAINING-PROCESS - Training with the last 919 instances
+2024-06-23 21:14:27,573 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:27,678 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:27,703 INFO     TRAINING-PROCESS - Training with the last 921 instances
+2024-06-23 21:14:27,772 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:27,879 INFO     TRAINING-PROCESS - Training with the last 922 instances
+2024-06-23 21:14:27,907 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:27,985 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:28,061 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:28,144 INFO     TRAINING-PROCESS - Training with the last 925 instances
+2024-06-23 21:14:28,194 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:28,307 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:28,332 INFO     TRAINING-PROCESS - Training with the last 927 instances
+2024-06-23 21:14:28,367 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:28,500 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:28,526 INFO     TRAINING-PROCESS - Training with the last 929 instances
+2024-06-23 21:14:28,568 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:28,688 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:28,717 INFO     TRAINING-PROCESS - Training with the last 931 instances
+2024-06-23 21:14:28,770 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:28,882 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:28,906 INFO     TRAINING-PROCESS - Training with the last 933 instances
+2024-06-23 21:14:28,982 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:29,068 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:29,092 INFO     TRAINING-PROCESS - Training with the last 935 instances
+2024-06-23 21:14:29,176 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:29,264 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:29,344 INFO     TRAINING-PROCESS - Training with the last 937 instances
+2024-06-23 21:14:29,380 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:29,504 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:29,532 INFO     TRAINING-PROCESS - Training with the last 939 instances
+2024-06-23 21:14:29,588 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:29,689 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:29,719 INFO     TRAINING-PROCESS - Training with the last 941 instances
+2024-06-23 21:14:29,769 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:29,893 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:29,919 INFO     TRAINING-PROCESS - Training with the last 943 instances
+2024-06-23 21:14:29,977 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:30,082 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:30,107 INFO     TRAINING-PROCESS - Training with the last 945 instances
+2024-06-23 21:14:30,210 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:30,284 INFO     TRAINING-PROCESS - Training with the last 946 instances
+2024-06-23 21:14:30,308 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:30,381 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:30,469 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:30,541 INFO     TRAINING-PROCESS - Training with the last 949 instances
+2024-06-23 21:14:30,569 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:30,691 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:30,717 INFO     TRAINING-PROCESS - Training with the last 951 instances
+2024-06-23 21:14:30,767 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:30,871 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:30,969 INFO     TRAINING-PROCESS - Training with the last 953 instances
+2024-06-23 21:14:30,987 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:31,088 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:31,199 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:31,224 INFO     TRAINING-PROCESS - Training with the last 956 instances
+2024-06-23 21:14:31,276 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:31,388 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:31,414 INFO     TRAINING-PROCESS - Training with the last 958 instances
+2024-06-23 21:14:31,480 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:31,575 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:31,672 INFO     TRAINING-PROCESS - Training with the last 960 instances
+2024-06-23 21:14:31,691 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:31,784 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:31,855 INFO     TRAINING-PROCESS - Training with the last 962 instances
+2024-06-23 21:14:31,887 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:32,021 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:32,049 INFO     TRAINING-PROCESS - Training with the last 964 instances
+2024-06-23 21:14:32,070 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:32,178 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:32,278 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:32,304 INFO     TRAINING-PROCESS - Training with the last 967 instances
+2024-06-23 21:14:32,378 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:32,491 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:32,518 INFO     TRAINING-PROCESS - Training with the last 969 instances
+2024-06-23 21:14:32,576 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:32,681 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:32,776 INFO     TRAINING-PROCESS - Training with the last 971 instances
+2024-06-23 21:14:32,796 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:32,943 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:32,972 INFO     TRAINING-PROCESS - Training with the last 973 instances
+2024-06-23 21:14:32,991 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:33,089 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:33,207 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:33,233 INFO     TRAINING-PROCESS - Training with the last 976 instances
+2024-06-23 21:14:33,274 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:33,400 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:33,492 INFO     TRAINING-PROCESS - Training with the last 978 instances
+2024-06-23 21:14:33,515 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:33,576 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:33,686 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:33,713 INFO     TRAINING-PROCESS - Training with the last 981 instances
+2024-06-23 21:14:33,778 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:33,878 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:33,908 INFO     TRAINING-PROCESS - Training with the last 983 instances
+2024-06-23 21:14:33,982 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:34,081 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:34,106 INFO     TRAINING-PROCESS - Training with the last 985 instances
+2024-06-23 21:14:34,201 INFO     PREDICTING-PROCESS: 1 instances predicted.
+2024-06-23 21:14:34,227 INFO     GENERATOR-PROCESS - Stream has finished
+2024-06-23 21:14:34,232 INFO     PREDICTING-PROCESS - Finished stream
+2024-06-23 21:14:34,247 INFO     TRAINING-PROCESS - Finished stream
